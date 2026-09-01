@@ -112,6 +112,11 @@ N 元关系语义，又可直接复用成熟的图算法（PageRank、Louvain �
 
 ## Core Architecture & Data Flow
 
+<div align="center">
+  <img src="docs/images/architecture.png" alt="System Architecture" width="850px" />
+  <p><em>Figure 1: Full-lifecycle pipeline from multimodal ingestion to OpenKE embedding and hybrid RAG.</em></p>
+</div>
+
 ```
                           ┌─────────────────────────────────────────────────────┐
                           │                   输入层（config/paths.py）           │
@@ -188,6 +193,11 @@ N 元关系语义，又可直接复用成熟的图算法（PageRank、Louvain �
 
 ### 1. Hypergraph Modeling for Materials Science
 
+<div align="center">
+  <img src="docs/images/hypergraph_network.png" alt="Materials Hypergraph Visualization" width="850px" />
+  <p><em>Figure 2: Force-directed topological visualization of alloy-element incidence structures.</em></p>
+</div>
+
 **N 元超边关系建模**是区别于普通知识图谱项目的核心差异点。
 
 - `RuleBasedExtractorHG`（`script/entity_relation_extractor.py`）将抽取结果组织为
@@ -203,6 +213,11 @@ N 元关系语义，又可直接复用成熟的图算法（PageRank、Louvain �
   保证下游图算法输入质量。
 
 ### 2. Dual-Tier Storage Architecture
+
+<div align="center">
+  <img src="docs/images/neo4j_graph.png" alt="Neo4j Schema and Graph View" width="850px" />
+  <p><em>Figure 3: Neo4j schema definition, APOC graph batch import, and connected subgraph queries.</em></p>
+</div>
 
 面向"本地可复现"与"企业可扩展"两种使用场景，存储层分为两级：
 
@@ -237,6 +252,11 @@ N 元关系语义，又可直接复用成熟的图算法（PageRank、Louvain �
 - 三路结果按 `top_k` 融合输出，兼顾语义相似与结构可达。
 
 ### 4. Native TransE & OpenKE Compatibility
+
+<div align="center">
+  <img src="docs/images/predicted_links_table.png" alt="Predicted Links Ranking" width="650px" />
+  <p><em>Figure 4: Knowledge representation learning output and link prediction score ranking.</em></p>
+</div>
 
 `EnhancedTransE`（`script/openke_integration.py`）是**纯 Python / NumPy** 实现的
 TransE 翻译距离模型，无需 PyTorch：
