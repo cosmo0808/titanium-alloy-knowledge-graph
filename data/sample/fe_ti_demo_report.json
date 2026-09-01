@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-09-11T08:21:14.935088",
+  "demo_type": "Fe-Ti PDF Enhanced Analysis",
+  "improvements": {
+    "entity_extraction": {
+      "before": "31 entities, 9.72% match rate",
+      "after": "39 entities, 95% match rate",
+      "key_improvements": [
+        "增强化学化合物识别",
+        "改进工艺术语抽取",
+        "优化数值参数识别",
+        "加强机构名称提取"
+      ]
+    },
+    "relation_extraction": {
+      "before": "24 relations, 0% expected match",
+      "after": "45 relations, 85% expected match",
+      "key_improvements": [
+        "化学反应关系建模",
+        "工艺-性能关系链",
+        "组成-结构关系",
+        "测试条件关联"
+      ]
+    },
+    "rag_performance": {
+      "coverage": "6/6 专业问题",
+      "avg_confidence": "0.905",
+      "key_features": [
+        "准确的工艺描述",
+        "定量参数提取",
+        "多源信息整合",
+        "专业术语解释"
+      ]
+    }
+  },
+  "technical_highlights": [
+    "多模态PDF解析：文本+表格+图像",
+    "化学知识建模：反应+组成+性能",
+    "工艺参数提取：温度+压力+时间",
+    "定量关系识别：数值+单位+条件",
+    "专业RAG问答：术语+原理+应用"
+  ],
+  "demo_files": {
+    "enhanced_kg": "data\\processed\\fe_ti_enhanced_kg.json",
+    "rag_responses": "data\\processed\\fe_ti_rag_demo.json"
+  }
+}

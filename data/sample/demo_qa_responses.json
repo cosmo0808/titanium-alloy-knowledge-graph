@@ -1,0 +1,42 @@
+{
+  "What is the purity of iron powder?": {
+    "answer": "Material purities: TiO2 (98.0%), TiH2 (99.3%), Fe (99.7%), Mn (99.3%), C (99.0%).",
+    "method": "intelligent_matching"
+  },
+  "Who supplied the titanium dioxide?": {
+    "answer": "Multiple suppliers were used: Cosmo Chemical Co. (TiO2), Sejong Materials (TiH2), BASF (Fe), Alfa Aesar (Mn), Korea carbon black Co. (C).",
+    "method": "intelligent_matching"
+  },
+  "What temperature was used for TiH2 processing?": {
+    "answer": "TiH2 route processing temperatures: 1373K (5 min) or 1473K (5 min), heating rate 50 K/min.",
+    "method": "intelligent_matching"
+  },
+  "What hydrogen capacity was achieved in the 3rd cycle?": {
+    "answer": "Third cycle (303K): Best performance with 1.17 wt% H for 50-300 min, highest hydriding rate achieved.",
+    "method": "intelligent_matching"
+  },
+  "What phases were detected by XRD?": {
+    "answer": "Main phases detected: FeTi and Fe2Ti (hydrogen storage phases), TiC (TiO2 route), FeTiO3 (intermediate), FeMn3 (TiH2 route).",
+    "method": "intelligent_matching"
+  },
+  "What are the ball milling conditions?": {
+    "answer": "Ball milling balls: 6 mm diameter stainless steel, 1,260 g total weight.",
+    "method": "intelligent_matching"
+  },
+  "Which institutions conducted this research?": {
+    "answer": "Research institutions: KIMS (Korea Institute of Machinery and Materials) and Chonbuk National University.",
+    "method": "intelligent_matching"
+  },
+  "What is the advantage of TiH2 over TiO2?": {
+    "answer": "TiH2 route advantages: no carbon contamination, lower processing temperature, cleaner reaction, more FeTi/Fe2Ti phases.",
+    "method": "intelligent_matching"
+  },
+  "What equipment was used for XRD analysis?": {
+    "answer": "Main phases detected: FeTi and Fe2Ti (hydrogen storage phases), TiC (TiO2 route), FeTiO3 (intermediate), FeMn3 (TiH2 route).",
+    "method": "intelligent_matching"
+  },
+  "How does performance change with cycling?": {
+    "answer": "Please ask a more specific question about the Fe-Ti alloy study. I can provide information about materials, processing, characterization, results, or institutional details.",
+    "method": "intelligent_matching"
+  }
+}

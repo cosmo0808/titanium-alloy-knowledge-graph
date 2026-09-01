@@ -1,0 +1,82 @@
+Fe-Ti Alloy Hypergraph Structure (Based on PDF Content)
+============================================================
+
+REGULAR NODES:
+- TiO2_Cosmo: raw_material
+- TiH2_Sejong: raw_material
+- Fe_BASF: raw_material
+- Mn_Alfa: raw_material
+- C_Korea: raw_material
+- TiFe0.85Mn0.15: target_alloy
+- FeTi_B2: alloy_phase
+- Fe2Ti_C14: alloy_phase
+- TiC_cubic: carbide_phase
+- FeTiO3_ilmenite: oxide_phase
+- FeMn3: intermetallic
+- ball_milling_120rpm_24h: process_parameter
+- PECS_1373K_5min: sintering_condition
+- PECS_1473K_5min: sintering_condition
+- PECS_1503K_10min: sintering_condition
+- PECS_1573K_3min: sintering_condition
+- H2_test_303K_29bar: test_condition
+- activation_673K: activation_condition
+- H_capacity_1st_cycle: performance_result
+- H_capacity_3rd_cycle: performance_result
+- H_capacity_8th_cycle: performance_result
+- XRD_Rigaku_D2200: characterization_method
+- FE_SEM_Philips_X130: characterization_method
+- DLS_ELS8000: characterization_method
+- CS_analyzer_Eltra: characterization_method
+- SPS_Sumitomo_2040: processing_equipment
+- particle_size_256nm: microstructure_feature
+- carbon_content_15.048wt%: composition_initial
+- carbon_content_14.24wt%: composition_after_1573K_3min
+- carbon_content_4.64wt%: composition_optimized
+- KIMS_Korea: research_institution
+- Chonbuk_National_University: research_institution
+
+HYPEREDGES (Multi-way Relations):
+
+HE_TiO2_reduction_1503K:
+  Type: chemical_reaction_process
+  Description: TiO2 + C → TiC + FeTiO3 at 1503K/10min
+  Connected Nodes: TiO2_Cosmo, C_Korea, TiC_cubic, FeTiO3_ilmenite, PECS_1503K_10min
+  Temperature: 1503K
+  Time: 10min
+
+HE_TiO2_reduction_1573K:
+  Type: chemical_reaction_process
+  Description: TiO2 + C → TiC with carbon consumption at 1573K/3min
+  Connected Nodes: TiO2_Cosmo, C_Korea, TiC_cubic, carbon_content_14.24wt%, PECS_1573K_3min
+  Temperature: 1573K
+  Time: 3min
+
+HE_TiH2_decomposition:
+  Type: decomposition_alloy_formation
+  Description: TiH2 → Ti → FeTi + Fe2Ti formation
+  Connected Nodes: TiH2_Sejong, FeTi_B2, Fe2Ti_C14, PECS_1373K_5min, PECS_1473K_5min
+
+HE_ball_milling_preparation:
+  Type: powder_processing
+  Description: Ball milling preparation of starting mixture
+  Connected Nodes: TiO2_Cosmo, Fe_BASF, Mn_Alfa, C_Korea, ball_milling_120rpm_24h, particle_size_256nm
+
+HE_hydrogen_absorption_cycle3:
+  Type: hydrogen_storage_performance
+  Description: 1.17 wt% H capacity at 3rd cycle, 303K, 29bar
+  Connected Nodes: TiFe0.85Mn0.15, H2_test_303K_29bar, H_capacity_3rd_cycle, FeTi_B2, Fe2Ti_C14
+
+HE_characterization_suite:
+  Type: comprehensive_characterization
+  Description: Multi-technique characterization of Fe-Ti alloy
+  Connected Nodes: XRD_Rigaku_D2200, FE_SEM_Philips_X130, DLS_ELS8000, CS_analyzer_Eltra, TiFe0.85Mn0.15
+
+HE_carbon_optimization:
+  Type: composition_optimization
+  Description: Carbon content optimization from 15.048% to 4.64%
+  Connected Nodes: carbon_content_15.048wt%, carbon_content_14.24wt%, carbon_content_4.64wt%, PECS_1573K_3min
+
+HE_research_collaboration:
+  Type: institutional_collaboration
+  Description: Joint research on Fe-Ti alloy hydrogen storage
+  Connected Nodes: KIMS_Korea, Chonbuk_National_University, SPS_Sumitomo_2040, H2_test_303K_29bar

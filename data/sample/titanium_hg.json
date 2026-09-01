@@ -1,0 +1,766 @@
+{
+  "nodes": {
+    "Ti": {
+      "type": "element",
+      "name": "钛",
+      "properties": [
+        "轻质",
+        "耐腐蚀",
+        "高强度",
+        "生物相容性",
+        "低密度"
+      ],
+      "description": "钛是一种银白色的过渡金属，具有重量轻、强度高、耐腐蚀性强等特点，是制造高性能合金的重要基体元素"
+    },
+    "Al": {
+      "type": "element",
+      "name": "铝",
+      "properties": [
+        "轻质",
+        "α稳定元素",
+        "强化",
+        "改善加工性"
+      ],
+      "description": "铝是钛合金中重要的α稳定化元素，能够固溶强化基体，提高合金的室温和高温强度"
+    },
+    "V": {
+      "type": "element",
+      "name": "钒",
+      "properties": [
+        "β稳定元素",
+        "强化",
+        "改善韧性",
+        "降低密度"
+      ],
+      "description": "钒是重要的β稳定化元素，能够细化晶粒，提高合金的强度和韧性匹配"
+    },
+    "Mo": {
+      "type": "element",
+      "name": "钼",
+      "properties": [
+        "β稳定元素",
+        "固溶强化",
+        "提高蠕变抗力"
+      ],
+      "description": "钼是强的β稳定化元素，能够显著提高钛合金的高温强度和蠕变抗力"
+    },
+    "Nb": {
+      "type": "element",
+      "name": "铌",
+      "properties": [
+        "β稳定元素",
+        "改善塑性",
+        "降低弹性模量"
+      ],
+      "description": "铌能够显著降低钛合金的弹性模量，改善生物相容性，常用于医用钛合金"
+    },
+    "Zr": {
+      "type": "element",
+      "name": "锆",
+      "properties": [
+        "中性元素",
+        "细化晶粒",
+        "提高蠕变抗力"
+      ],
+      "description": "锆是中性合金元素，能够细化晶粒，提高钛合金的综合性能"
+    },
+    "Sn": {
+      "type": "element",
+      "name": "锡",
+      "properties": [
+        "α稳定元素",
+        "固溶强化",
+        "改善焊接性"
+      ],
+      "description": "锡是温和的α稳定化元素，能够固溶强化而不显著影响塑性"
+    },
+    "Ti-6Al-4V": {
+      "type": "alloy",
+      "name": "Ti-6Al-4V钛合金",
+      "composition": [
+        "Ti",
+        "Al",
+        "V"
+      ],
+      "properties": [
+        "高强度",
+        "良好韧性",
+        "优异耐腐蚀性",
+        "可焊接性好",
+        "α+β双相组织"
+      ],
+      "applications": [
+        "航空结构件",
+        "航空发动机",
+        "医疗植入物",
+        "化工设备"
+      ],
+      "description": "最重要的α+β型钛合金，具有优异的强度、韧性和耐腐蚀性的平衡，被称为钛合金的'工作母马'"
+    },
+    "TC4": {
+      "type": "alloy",
+      "name": "TC4钛合金",
+      "composition": [
+        "Ti",
+        "Al",
+        "V"
+      ],
+      "properties": [
+        "高强度",
+        "良好塑性",
+        "优异焊接性",
+        "工艺性能好"
+      ],
+      "applications": [
+        "航空发动机叶片",
+        "压气机盘",
+        "结构件",
+        "紧固件"
+      ],
+      "description": "TC4是Ti-6Al-4V的中国牌号，广泛应用于航空航天领域"
+    },
+    "Ti-3Al-2.5V": {
+      "type": "alloy",
+      "name": "Ti-3Al-2.5V钛合金",
+      "composition": [
+        "Ti",
+        "Al",
+        "V"
+      ],
+      "properties": [
+        "良好成形性",
+        "优异焊接性",
+        "低温韧性好"
+      ],
+      "applications": [
+        "液压管路",
+        "燃油系统",
+        "薄壁结构"
+      ],
+      "description": "近α型钛合金，具有优异的成形性和焊接性，适用于复杂薄壁零件"
+    },
+    "Ti-6Al-7Nb": {
+      "type": "alloy",
+      "name": "Ti-6Al-7Nb钛合金",
+      "composition": [
+        "Ti",
+        "Al",
+        "Nb"
+      ],
+      "properties": [
+        "生物相容性",
+        "低弹性模量",
+        "无毒性"
+      ],
+      "applications": [
+        "骨科植入物",
+        "牙科种植体",
+        "外科器械"
+      ],
+      "description": "专门为医疗应用开发的钛合金，用铌替代钒以避免潜在的细胞毒性"
+    },
+    "TA1": {
+      "type": "alloy",
+      "name": "TA1工业纯钛",
+      "composition": [
+        "Ti"
+      ],
+      "properties": [
+        "优异耐腐蚀性",
+        "良好成形性",
+        "焊接性好"
+      ],
+      "applications": [
+        "化工设备",
+        "海洋工程",
+        "医疗器械"
+      ],
+      "description": "1级工业纯钛，具有最佳的耐腐蚀性和成形性"
+    },
+    "TA2": {
+      "type": "alloy",
+      "name": "TA2工业纯钛",
+      "composition": [
+        "Ti"
+      ],
+      "properties": [
+        "良好强度",
+        "优异耐腐蚀性",
+        "工艺性能好"
+      ],
+      "applications": [
+        "化工容器",
+        "换热器",
+        "管道系统"
+      ],
+      "description": "2级工业纯钛，在保持良好耐腐蚀性的同时具有更高强度"
+    },
+    "强度": {
+      "type": "property",
+      "name": "材料强度",
+      "factors": [
+        "合金成分",
+        "显微组织",
+        "热处理工艺",
+        "加工变形"
+      ],
+      "description": "材料抵抗变形和断裂的能力，包括屈服强度、抗拉强度和疲劳强度"
+    },
+    "硬度": {
+      "type": "property",
+      "name": "材料硬度",
+      "factors": [
+        "相组成",
+        "晶粒尺寸",
+        "析出相",
+        "加工硬化"
+      ],
+      "description": "材料抵抗局部变形、划痕或压入的能力"
+    },
+    "韧性": {
+      "type": "property",
+      "name": "材料韧性",
+      "factors": [
+        "显微组织",
+        "相界面",
+        "晶粒尺寸",
+        "夹杂物"
+      ],
+      "description": "材料在断裂前吸收能量的能力，反映材料的安全性"
+    },
+    "耐腐蚀性": {
+      "type": "property",
+      "name": "耐腐蚀性",
+      "factors": [
+        "钝化膜",
+        "合金成分",
+        "表面状态",
+        "环境条件"
+      ],
+      "description": "材料抵抗化学腐蚀和电化学腐蚀的能力"
+    },
+    "疲劳强度": {
+      "type": "property",
+      "name": "疲劳强度",
+      "factors": [
+        "表面质量",
+        "显微组织",
+        "残余应力",
+        "环境条件"
+      ],
+      "description": "材料在循环载荷作用下抵抗疲劳断裂的能力"
+    },
+    "热处理": {
+      "type": "process",
+      "name": "热处理工艺",
+      "effects": [
+        "调整组织",
+        "提高强度",
+        "改善塑性",
+        "消除应力"
+      ],
+      "parameters": [
+        "加热温度",
+        "保温时间",
+        "冷却速度",
+        "环境气氛"
+      ],
+      "description": "通过加热和冷却改变钛合金显微组织和性能的工艺方法"
+    },
+    "锻造": {
+      "type": "process",
+      "name": "锻造工艺",
+      "effects": [
+        "细化晶粒",
+        "消除缺陷",
+        "改善组织",
+        "提高性能"
+      ],
+      "parameters": [
+        "锻造温度",
+        "变形速率",
+        "变形程度",
+        "模具设计"
+      ],
+      "description": "利用锻压机械对钛合金施加压力进行塑性变形的成形工艺"
+    },
+    "焊接": {
+      "type": "process",
+      "name": "焊接工艺",
+      "requirements": [
+        "惰性气体保护",
+        "严格清洁",
+        "预热后热",
+        "控制热输入"
+      ],
+      "methods": [
+        "TIG焊",
+        "电子束焊",
+        "激光焊",
+        "摩擦焊"
+      ],
+      "description": "钛合金零件连接的重要工艺，需要严格的保护措施"
+    },
+    "表面处理": {
+      "type": "process",
+      "name": "表面处理",
+      "methods": [
+        "阳极氧化",
+        "喷砂",
+        "化学腐蚀",
+        "涂层"
+      ],
+      "effects": [
+        "改善表面质量",
+        "提高耐腐蚀性",
+        "增强结合力"
+      ],
+      "description": "改善钛合金表面性能的各种处理方法"
+    },
+    "航空航天": {
+      "type": "application",
+      "name": "航空航天应用",
+      "requirements": [
+        "轻质高强",
+        "耐高温",
+        "抗疲劳",
+        "可靠性高"
+      ],
+      "components": [
+        "发动机叶片",
+        "结构件",
+        "紧固件",
+        "管路系统"
+      ],
+      "description": "钛合金在航空航天领域的广泛应用，充分利用其轻质高强特性"
+    },
+    "医疗植入": {
+      "type": "application",
+      "name": "医疗植入应用",
+      "requirements": [
+        "生物相容性",
+        "低弹性模量",
+        "耐腐蚀",
+        "无磁性"
+      ],
+      "products": [
+        "人工关节",
+        "牙科种植体",
+        "骨板",
+        "心血管支架"
+      ],
+      "description": "钛合金在医疗植入物中的应用，利用其优异的生物相容性"
+    },
+    "汽车工业": {
+      "type": "application",
+      "name": "汽车工业应用",
+      "requirements": [
+        "轻量化",
+        "耐腐蚀",
+        "高强度",
+        "成本效益"
+      ],
+      "components": [
+        "排气系统",
+        "弹簧",
+        "连杆",
+        "气门"
+      ],
+      "description": "钛合金在汽车轻量化中的应用，主要用于高性能车型"
+    },
+    "化工设备": {
+      "type": "application",
+      "name": "化工设备应用",
+      "requirements": [
+        "耐腐蚀",
+        "耐高温",
+        "无污染",
+        "长寿命"
+      ],
+      "equipment": [
+        "反应器",
+        "换热器",
+        "管道",
+        "泵阀"
+      ],
+      "description": "钛合金在化工领域的应用，主要利用其优异的耐腐蚀性能"
+    }
+  },
+  "edges": [
+    [
+      "Ti-6Al-4V",
+      "contains",
+      "Ti"
+    ],
+    [
+      "Ti-6Al-4V",
+      "contains",
+      "Al"
+    ],
+    [
+      "Ti-6Al-4V",
+      "contains",
+      "V"
+    ],
+    [
+      "TC4",
+      "contains",
+      "Ti"
+    ],
+    [
+      "TC4",
+      "contains",
+      "Al"
+    ],
+    [
+      "TC4",
+      "contains",
+      "V"
+    ],
+    [
+      "Ti-3Al-2.5V",
+      "contains",
+      "Ti"
+    ],
+    [
+      "Ti-3Al-2.5V",
+      "contains",
+      "Al"
+    ],
+    [
+      "Ti-3Al-2.5V",
+      "contains",
+      "V"
+    ],
+    [
+      "Ti-6Al-7Nb",
+      "contains",
+      "Ti"
+    ],
+    [
+      "Ti-6Al-7Nb",
+      "contains",
+      "Al"
+    ],
+    [
+      "Ti-6Al-7Nb",
+      "contains",
+      "Nb"
+    ],
+    [
+      "TA1",
+      "contains",
+      "Ti"
+    ],
+    [
+      "TA2",
+      "contains",
+      "Ti"
+    ],
+    [
+      "Al",
+      "improves",
+      "强度"
+    ],
+    [
+      "Al",
+      "improves",
+      "硬度"
+    ],
+    [
+      "Al",
+      "stabilizes",
+      "α相"
+    ],
+    [
+      "V",
+      "improves",
+      "强度"
+    ],
+    [
+      "V",
+      "improves",
+      "韧性"
+    ],
+    [
+      "V",
+      "stabilizes",
+      "β相"
+    ],
+    [
+      "Mo",
+      "improves",
+      "强度"
+    ],
+    [
+      "Mo",
+      "improves",
+      "蠕变抗力"
+    ],
+    [
+      "Mo",
+      "stabilizes",
+      "β相"
+    ],
+    [
+      "Nb",
+      "reduces",
+      "弹性模量"
+    ],
+    [
+      "Nb",
+      "improves",
+      "生物相容性"
+    ],
+    [
+      "Nb",
+      "stabilizes",
+      "β相"
+    ],
+    [
+      "Zr",
+      "refines",
+      "晶粒"
+    ],
+    [
+      "Zr",
+      "improves",
+      "蠕变抗力"
+    ],
+    [
+      "Ti",
+      "provides",
+      "耐腐蚀性"
+    ],
+    [
+      "Ti",
+      "provides",
+      "生物相容性"
+    ],
+    [
+      "Ti-6Al-4V",
+      "has_property",
+      "强度"
+    ],
+    [
+      "Ti-6Al-4V",
+      "has_property",
+      "韧性"
+    ],
+    [
+      "Ti-6Al-4V",
+      "has_property",
+      "耐腐蚀性"
+    ],
+    [
+      "Ti-6Al-4V",
+      "has_property",
+      "疲劳强度"
+    ],
+    [
+      "TC4",
+      "has_property",
+      "强度"
+    ],
+    [
+      "TC4",
+      "has_property",
+      "硬度"
+    ],
+    [
+      "Ti-3Al-2.5V",
+      "has_property",
+      "韧性"
+    ],
+    [
+      "Ti-6Al-7Nb",
+      "has_property",
+      "生物相容性"
+    ],
+    [
+      "TA1",
+      "has_property",
+      "耐腐蚀性"
+    ],
+    [
+      "TA2",
+      "has_property",
+      "耐腐蚀性"
+    ],
+    [
+      "热处理",
+      "improves",
+      "强度"
+    ],
+    [
+      "热处理",
+      "adjusts",
+      "韧性"
+    ],
+    [
+      "热处理",
+      "refines",
+      "组织"
+    ],
+    [
+      "锻造",
+      "improves",
+      "强度"
+    ],
+    [
+      "锻造",
+      "improves",
+      "韧性"
+    ],
+    [
+      "锻造",
+      "refines",
+      "晶粒"
+    ],
+    [
+      "表面处理",
+      "improves",
+      "疲劳强度"
+    ],
+    [
+      "表面处理",
+      "improves",
+      "耐腐蚀性"
+    ],
+    [
+      "Ti-6Al-4V",
+      "processed_by",
+      "热处理"
+    ],
+    [
+      "Ti-6Al-4V",
+      "processed_by",
+      "锻造"
+    ],
+    [
+      "Ti-6Al-4V",
+      "processed_by",
+      "焊接"
+    ],
+    [
+      "TC4",
+      "processed_by",
+      "热处理"
+    ],
+    [
+      "Ti-3Al-2.5V",
+      "processed_by",
+      "焊接"
+    ],
+    [
+      "TA1",
+      "processed_by",
+      "焊接"
+    ],
+    [
+      "Ti-6Al-4V",
+      "used_in",
+      "航空航天"
+    ],
+    [
+      "Ti-6Al-4V",
+      "used_in",
+      "医疗植入"
+    ],
+    [
+      "TC4",
+      "used_in",
+      "航空航天"
+    ],
+    [
+      "Ti-3Al-2.5V",
+      "used_in",
+      "航空航天"
+    ],
+    [
+      "Ti-6Al-7Nb",
+      "used_in",
+      "医疗植入"
+    ],
+    [
+      "TA1",
+      "used_in",
+      "化工设备"
+    ],
+    [
+      "TA2",
+      "used_in",
+      "化工设备"
+    ],
+    [
+      "Ti-6Al-4V",
+      "used_in",
+      "汽车工业"
+    ],
+    [
+      "TC4",
+      "equivalent_to",
+      "Ti-6Al-4V"
+    ],
+    [
+      "航空航天",
+      "requires",
+      "强度"
+    ],
+    [
+      "航空航天",
+      "requires",
+      "韧性"
+    ],
+    [
+      "医疗植入",
+      "requires",
+      "生物相容性"
+    ],
+    [
+      "医疗植入",
+      "requires",
+      "耐腐蚀性"
+    ],
+    [
+      "汽车工业",
+      "requires",
+      "轻量化"
+    ],
+    [
+      "化工设备",
+      "requires",
+      "耐腐蚀性"
+    ],
+    [
+      "强度",
+      "depends_on",
+      "合金成分"
+    ],
+    [
+      "强度",
+      "depends_on",
+      "显微组织"
+    ],
+    [
+      "韧性",
+      "depends_on",
+      "晶粒尺寸"
+    ],
+    [
+      "韧性",
+      "depends_on",
+      "相组成"
+    ],
+    [
+      "耐腐蚀性",
+      "depends_on",
+      "钝化膜"
+    ],
+    [
+      "疲劳强度",
+      "depends_on",
+      "表面质量"
+    ]
+  ]
+}

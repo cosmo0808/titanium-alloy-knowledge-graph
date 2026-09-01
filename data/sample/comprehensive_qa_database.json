@@ -1,0 +1,217 @@
+{
+  "Who supplied the TiO2 used in this study?": {
+    "answer": "The TiO2 was supplied by Cosmo Chemical Co., Ltd..",
+    "confidence": 0.98,
+    "type": "material_supplier"
+  },
+  "What is the purity of TiO2?": {
+    "answer": "The TiO2 has a purity of 98.0%.",
+    "confidence": 0.98,
+    "type": "material_purity"
+  },
+  "What is the particle size of TiO2?": {
+    "answer": "The TiO2 has a particle size of 0.35 µm.",
+    "confidence": 0.98,
+    "type": "material_size"
+  },
+  "What is the role of TiO2 in the experiment?": {
+    "answer": "The TiO2 serves as titanium source.",
+    "confidence": 0.95,
+    "type": "material_role"
+  },
+  "Who supplied the TiH2 used in this study?": {
+    "answer": "The TiH2 was supplied by Sejong Materials.",
+    "confidence": 0.98,
+    "type": "material_supplier"
+  },
+  "What is the purity of TiH2?": {
+    "answer": "The TiH2 has a purity of 99.3%.",
+    "confidence": 0.98,
+    "type": "material_purity"
+  },
+  "What is the particle size of TiH2?": {
+    "answer": "The TiH2 has a particle size of <635 mesh.",
+    "confidence": 0.98,
+    "type": "material_size"
+  },
+  "What is the role of TiH2 in the experiment?": {
+    "answer": "The TiH2 serves as titanium source without carbon.",
+    "confidence": 0.95,
+    "type": "material_role"
+  },
+  "Who supplied the C used in this study?": {
+    "answer": "The C was supplied by Korea carbon black Co., Ltd..",
+    "confidence": 0.98,
+    "type": "material_supplier"
+  },
+  "What is the purity of C?": {
+    "answer": "The C has a purity of 99.0%.",
+    "confidence": 0.98,
+    "type": "material_purity"
+  },
+  "What is the particle size of C?": {
+    "answer": "The C has a particle size of 20 nm.",
+    "confidence": 0.98,
+    "type": "material_size"
+  },
+  "What is the role of C in the experiment?": {
+    "answer": "The C serves as reducing agent.",
+    "confidence": 0.95,
+    "type": "material_role"
+  },
+  "Who supplied the Fe used in this study?": {
+    "answer": "The Fe was supplied by BASF.",
+    "confidence": 0.98,
+    "type": "material_supplier"
+  },
+  "What is the purity of Fe?": {
+    "answer": "The Fe has a purity of 99.7%.",
+    "confidence": 0.98,
+    "type": "material_purity"
+  },
+  "What is the particle size of Fe?": {
+    "answer": "The Fe has a particle size of 5 µm.",
+    "confidence": 0.98,
+    "type": "material_size"
+  },
+  "What is the role of Fe in the experiment?": {
+    "answer": "The Fe serves as iron source.",
+    "confidence": 0.95,
+    "type": "material_role"
+  },
+  "Who supplied the Mn used in this study?": {
+    "answer": "The Mn was supplied by Alfa Aesar.",
+    "confidence": 0.98,
+    "type": "material_supplier"
+  },
+  "What is the purity of Mn?": {
+    "answer": "The Mn has a purity of 99.3%.",
+    "confidence": 0.98,
+    "type": "material_purity"
+  },
+  "What is the particle size of Mn?": {
+    "answer": "The Mn has a particle size of <325 mesh.",
+    "confidence": 0.98,
+    "type": "material_size"
+  },
+  "What is the role of Mn in the experiment?": {
+    "answer": "The Mn serves as alloying element.",
+    "confidence": 0.95,
+    "type": "material_role"
+  },
+  "What are the specific ball milling conditions?": {
+    "answer": "Ball milling conditions: speed 120 rpm, duration 24 h, using 6 mm diameter stainless steel balls (total weight 1,260 g), in a 307 cm³ container with hexane 100 cc medium.",
+    "confidence": 0.97,
+    "type": "processing_conditions"
+  },
+  "What are the PECS equipment specifications?": {
+    "answer": "PECS equipment: spark plasma sintering machine (SPS 2040 Sumitomo Coal Mining Co. Ltd.), graphite die with 22.85 mm inside diameter, mechanical pressure 20 MPa, current range 1,100-1,200 A, voltage range 3.0-3.5 V.",
+    "confidence": 0.96,
+    "type": "equipment_specs"
+  },
+  "What are the processing conditions for TiO2 route?": {
+    "answer": "For TiO2 route: heating rate 27 K/min, temperature range 973 K to 1473-1573 K.",
+    "confidence": 0.95,
+    "type": "processing_conditions"
+  },
+  "What are the processing conditions for TiH2 route?": {
+    "answer": "For TiH2 route: heating rate 50 K/min, temperature range 973 K to 1373-1473 K.",
+    "confidence": 0.95,
+    "type": "processing_conditions"
+  },
+  "What hydrogen capacity was achieved in the 1st cycle 673K?": {
+    "answer": "In the 1st cycle 673K: 0.12 wt% H for 50 min.",
+    "confidence": 0.94,
+    "type": "performance_result"
+  },
+  "What hydrogen capacity was achieved in the 3rd cycle 303K?": {
+    "answer": "In the 3rd cycle 303K: 1.17 wt% H for 50 min. highest hydriding rate, activation completed.",
+    "confidence": 0.94,
+    "type": "performance_result"
+  },
+  "What hydrogen capacity was achieved in the 5th cycle 303K?": {
+    "answer": "In the 5th cycle 303K: 1.00 wt% H for 40 min.",
+    "confidence": 0.94,
+    "type": "performance_result"
+  },
+  "What hydrogen capacity was achieved in the 8th cycle 303K?": {
+    "answer": "In the 8th cycle 303K: 0.93 wt% H for 39 min.",
+    "confidence": 0.94,
+    "type": "performance_result"
+  },
+  "What phases were detected by XRD at 1503K 10min TiO2?": {
+    "answer": "XRD analysis at 1503K 10min TiO2 detected the following phases: Fe, C, TiO2, TiC, FeTi, Fe2Ti, FeTiO3, Ti.",
+    "confidence": 0.96,
+    "type": "phase_identification"
+  },
+  "What phases were detected by XRD at 1573K 3min TiO2?": {
+    "answer": "XRD analysis at 1573K 3min TiO2 detected the following phases: TiC, FeTi, Fe2Ti, FeTiO3, Ti.",
+    "confidence": 0.96,
+    "type": "phase_identification"
+  },
+  "What phases were detected by XRD at 1373K 5min TiH2?": {
+    "answer": "XRD analysis at 1373K 5min TiH2 detected the following phases: FeTi, Fe2Ti, Ti, Mn, C, FeMn3, Fe.",
+    "confidence": 0.96,
+    "type": "phase_identification"
+  },
+  "What phases were detected by XRD at 1473K 5min TiH2?": {
+    "answer": "XRD analysis at 1473K 5min TiH2 detected the following phases: FeTi, Fe2Ti, Ti, C, Mn, FeMn3, Fe.",
+    "confidence": 0.96,
+    "type": "phase_identification"
+  },
+  "How was carbon content optimized in the study?": {
+    "answer": "Carbon content was optimized by reducing initial carbon from 15.048 wt% to 8.136 wt%, which resulted in remaining carbon after treatment decreasing from 14.24 wt% to 4.64 wt%, producing more FeTi and Fe2Ti phases.",
+    "confidence": 0.93,
+    "type": "optimization_strategy"
+  },
+  "What are the advantages of using TiH2 over TiO2 as starting material?": {
+    "answer": "TiH2 advantages over TiO2: (1) No carbon addition required, avoiding carbon contamination; (2) Lower processing temperature (1373-1473K vs 1503-1573K); (3) Direct decomposition to Ti + H2; (4) Produces more FeTi and Fe2Ti phases; (5) Cleaner reaction pathway without carbide formation.",
+    "confidence": 0.92,
+    "type": "material_comparison"
+  },
+  "How does hydrogen storage performance change with cycling?": {
+    "answer": "Hydrogen storage performance: 3rd cycle shows highest capacity (1.17 wt% H), indicating completed activation. Performance gradually decreases with cycling: 5th cycle (1.00 wt% H), 8th cycle (0.93 wt% H at 39 min), showing typical capacity fade.",
+    "confidence": 0.9,
+    "type": "performance_comparison"
+  },
+  "What equipment was used for FE SEM analysis?": {
+    "answer": "For FE SEM analysis: field-emission scanning electron microscopy (FE-SEM, Philips Co., X130 SFEG).",
+    "confidence": 0.98,
+    "type": "equipment_details"
+  },
+  "What equipment was used for DLS analysis?": {
+    "answer": "For DLS analysis: dynamic light scattering (DLS, Model: ELS-8000, Photal Otsuka Electronics, Japan).",
+    "confidence": 0.98,
+    "type": "equipment_details"
+  },
+  "What equipment was used for XRD analysis?": {
+    "answer": "For XRD analysis: Rigaku D/max 2200 X-ray diffractometer.",
+    "confidence": 0.98,
+    "type": "equipment_details"
+  },
+  "What equipment was used for carbon analysis analysis?": {
+    "answer": "For carbon analysis analysis: Carbon-sulfur determinator (Eltra CS-8000, Germany).",
+    "confidence": 0.98,
+    "type": "equipment_details"
+  },
+  "What is the particle size distribution after ball milling?": {
+    "answer": "Particle size distribution: range 70 nm to 650 nm, average size 256 nm, dominant size range 190-230 nm, morphology: fine agglomerates of very fine particles.",
+    "confidence": 0.95,
+    "type": "microstructure_details"
+  },
+  "Who are the authors and their affiliations?": {
+    "answer": "Authors: Seong-Hyeon Hong (KIMS); Myoung Youp Song (Chonbuk National University, corresponding author).",
+    "confidence": 0.98,
+    "type": "author_info"
+  },
+  "In which journal was this paper published?": {
+    "answer": "Published in Met. Mater. Int., Vol. 19, No. 4 (2013), pp. 895~899, DOI: 10.1007/s12540-013-4035-1.",
+    "confidence": 0.98,
+    "type": "publication_info"
+  },
+  "What funding supported this research?": {
+    "answer": "This research was supported by the Hydrogen Energy R&D Center, one of the 21st Century Frontier R&D Programs, funded by the Ministry of Science and Technology of South Korea.",
+    "confidence": 0.95,
+    "type": "funding_info"
+  }
+}

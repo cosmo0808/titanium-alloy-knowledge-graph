@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="edge" attr.name="label" attr.type="string"/>
+<key id="d5" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d4" for="node" attr.name="size" attr.type="long"/>
+<key id="d3" for="node" attr.name="color" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="Fe">
+  <data key="d0">铁(Fe)</data>
+  <data key="d1">element</data>
+  <data key="d2">铁元素，合金主要成分</data>
+  <data key="d3">#FF6B6B</data>
+  <data key="d4">20</data>
+</node>
+<node id="Ti">
+  <data key="d0">钛(Ti)</data>
+  <data key="d1">element</data>
+  <data key="d2">钛元素，合金主要成分</data>
+  <data key="d3">#FF6B6B</data>
+  <data key="d4">20</data>
+</node>
+<node id="Mn">
+  <data key="d0">锰(Mn)</data>
+  <data key="d1">element</data>
+  <data key="d2">锰元素，合金添加元素</data>
+  <data key="d3">#FF6B6B</data>
+  <data key="d4">20</data>
+</node>
+<node id="C">
+  <data key="d0">碳(C)</data>
+  <data key="d1">element</data>
+  <data key="d2">碳元素，还原剂</data>
+  <data key="d3">#FF6B6B</data>
+  <data key="d4">20</data>
+</node>
+<node id="H">
+  <data key="d0">氢(H)</data>
+  <data key="d1">element</data>
+  <data key="d2">氢元素，储存气体</data>
+  <data key="d3">#FF6B6B</data>
+  <data key="d4">20</data>
+</node>
+<node id="O">
+  <data key="d0">氧(O)</data>
+  <data key="d1">element</data>
+  <data key="d2">氧元素，氧化物组成</data>
+  <data key="d3">#FF6B6B</data>
+  <data key="d4">20</data>
+</node>
+<node id="TiO2">
+  <data key="d0">二氧化钛</data>
+  <data key="d1">compound</data>
+  <data key="d2">起始材料，钛源</data>
+  <data key="d3">#4ECDC4</data>
+  <data key="d4">20</data>
+</node>
+<node id="TiH2">
+  <data key="d0">氢化钛</data>
+  <data key="d1">compound</data>
+  <data key="d2">起始材料，钛源</data>
+  <data key="d3">#4ECDC4</data>
+  <data key="d4">20</data>
+</node>
+<node id="TiC">
+  <data key="d0">碳化钛</data>
+  <data key="d1">compound</data>
+  <data key="d2">反应产物</data>
+  <data key="d3">#4ECDC4</data>
+  <data key="d4">20</data>
+</node>
+<node id="FeTiO3">
+  <data key="d0">钛铁矿</data>
+  <data key="d1">compound</data>
+  <data key="d2">中间产物</data>
+  <data key="d3">#4ECDC4</data>
+  <data key="d4">20</data>
+</node>
+<node id="FeTi">
+  <data key="d0">FeTi合金</data>
+  <data key="d1">alloy</data>
+  <data key="d2">等原子比铁钛合金</data>
+  <data key="d3">#45B7D1</data>
+  <data key="d4">30</data>
+</node>
+<node id="Fe2Ti">
+  <data key="d0">Fe2Ti合金</data>
+  <data key="d1">alloy</data>
+  <data key="d2">富铁铁钛合金</data>
+  <data key="d3">#45B7D1</data>
+  <data key="d4">30</data>
+</node>
+<node id="TiFe0.85Mn0.15">
+  <data key="d0">Ti-Fe-Mn合金</data>
+  <data key="d1">alloy</data>
+  <data key="d2">三元合金目标产物</data>
+  <data key="d3">#45B7D1</data>
+  <data key="d4">30</data>
+</node>
+<node id="ball_milling">
+  <data key="d0">球磨</data>
+  <data key="d1">process</data>
+  <data key="d2">粉末制备工艺</data>
+  <data key="d3">#96CEB4</data>
+  <data key="d4">20</data>
+</node>
+<node id="PECS">
+  <data key="d0">脉冲电流烧结</data>
+  <data key="d1">process</data>
+  <data key="d2">PECS/SPS工艺</data>
+  <data key="d3">#96CEB4</data>
+  <data key="d4">20</data>
+</node>
+<node id="heating">
+  <data key="d0">加热</data>
+  <data key="d1">process</data>
+  <data key="d2">高温处理</data>
+  <data key="d3">#96CEB4</data>
+  <data key="d4">20</data>
+</node>
+<node id="reduction">
+  <data key="d0">还原反应</data>
+  <data key="d1">process</data>
+  <data key="d2">氧化物还原</data>
+  <data key="d3">#96CEB4</data>
+  <data key="d4">20</data>
+</node>
+<node id="hydrogen_storage">
+  <data key="d0">储氢性能</data>
+  <data key="d1">property</data>
+  <data key="d2">氢气存储能力</data>
+  <data key="d3">#FFEAA7</data>
+  <data key="d4">20</data>
+</node>
+<node id="hydrogen_absorption">
+  <data key="d0">氢气吸收</data>
+  <data key="d1">property</data>
+  <data key="d2">吸氢过程</data>
+  <data key="d3">#FFEAA7</data>
+  <data key="d4">20</data>
+</node>
+<node id="particle_size">
+  <data key="d0">颗粒尺寸</data>
+  <data key="d1">property</data>
+  <data key="d2">粉末粒度</data>
+  <data key="d3">#FFEAA7</data>
+  <data key="d4">20</data>
+</node>
+<node id="1373K">
+  <data key="d0">1373K</data>
+  <data key="d1">temperature</data>
+  <data key="d2">反应温度1100°C</data>
+  <data key="d3">#DDA0DD</data>
+  <data key="d4">20</data>
+</node>
+<node id="1473K">
+  <data key="d0">1473K</data>
+  <data key="d1">temperature</data>
+  <data key="d2">反应温度1200°C</data>
+  <data key="d3">#DDA0DD</data>
+  <data key="d4">20</data>
+</node>
+<node id="1573K">
+  <data key="d0">1573K</data>
+  <data key="d1">temperature</data>
+  <data key="d2">反应温度1300°C</data>
+  <data key="d3">#DDA0DD</data>
+  <data key="d4">20</data>
+</node>
+<node id="303K">
+  <data key="d0">303K</data>
+  <data key="d1">temperature</data>
+  <data key="d2">室温30°C</data>
+  <data key="d3">#DDA0DD</data>
+  <data key="d4">20</data>
+</node>
+<node id="29_bar">
+  <data key="d0">29 bar</data>
+  <data key="d1">pressure</data>
+  <data key="d2">氢气测试压力</data>
+  <data key="d3">#F0E68C</data>
+  <data key="d4">20</data>
+</node>
+<node id="20_MPa">
+  <data key="d0">20 MPa</data>
+  <data key="d1">pressure</data>
+  <data key="d2">机械压力</data>
+  <data key="d3">#F0E68C</data>
+  <data key="d4">20</data>
+</node>
+<node id="XRD">
+  <data key="d0">X射线衍射</data>
+  <data key="d1">instrument</data>
+  <data key="d2">物相分析</data>
+  <data key="d3">#FFB347</data>
+  <data key="d4">20</data>
+</node>
+<node id="SEM">
+  <data key="d0">扫描电镜</data>
+  <data key="d1">instrument</data>
+  <data key="d2">形貌观察</data>
+  <data key="d3">#FFB347</data>
+  <data key="d4">20</data>
+</node>
+<node id="KIMS">
+  <data key="d0">韩国机械材料研究院</data>
+  <data key="d1">organization</data>
+  <data key="d2">研究机构</data>
+  <data key="d3">#B0C4DE</data>
+  <data key="d4">20</data>
+</node>
+<node id="Chonbuk_Univ">
+  <data key="d0">全北国立大学</data>
+  <data key="d1">organization</data>
+  <data key="d2">研究机构</data>
+  <data key="d3">#B0C4DE</data>
+  <data key="d4">20</data>
+</node>
+<edge source="Fe" target="FeTi">
+  <data key="d5">forms</data>
+  <data key="d6">形成</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="Fe" target="Fe2Ti">
+  <data key="d5">forms</data>
+  <data key="d6">形成</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="Ti" target="FeTi">
+  <data key="d5">forms</data>
+  <data key="d6">形成</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="Ti" target="Fe2Ti">
+  <data key="d5">forms</data>
+  <data key="d6">形成</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="TiO2" target="Ti">
+  <data key="d5">reduces_to</data>
+  <data key="d6">还原为</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="TiO2" target="O">
+  <data key="d5">contains</data>
+  <data key="d6">包含</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="TiO2" target="TiC">
+  <data key="d5">reduces_to</data>
+  <data key="d6">还原为</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="TiO2" target="FeTi">
+  <data key="d5">precursor_for</data>
+  <data key="d6">前驱体</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="TiH2" target="Ti">
+  <data key="d5">decomposes_to</data>
+  <data key="d6">分解为</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="TiH2" target="H">
+  <data key="d5">contains</data>
+  <data key="d6">包含</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="TiH2" target="FeTi">
+  <data key="d5">precursor_for</data>
+  <data key="d6">前驱体</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="TiC" target="Ti">
+  <data key="d5">contains</data>
+  <data key="d6">包含</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="TiC" target="C">
+  <data key="d5">contains</data>
+  <data key="d6">包含</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="FeTi" target="Fe">
+  <data key="d5">contains</data>
+  <data key="d6">包含</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="FeTi" target="Ti">
+  <data key="d5">contains</data>
+  <data key="d6">包含</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="FeTi" target="hydrogen_storage">
+  <data key="d5">used_for</data>
+  <data key="d6">用于</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="Fe2Ti" target="Fe">
+  <data key="d5">contains</data>
+  <data key="d6">包含</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="Fe2Ti" target="Ti">
+  <data key="d5">contains</data>
+  <data key="d6">包含</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="Fe2Ti" target="hydrogen_storage">
+  <data key="d5">used_for</data>
+  <data key="d6">用于</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="TiFe0.85Mn0.15" target="Ti">
+  <data key="d5">contains</data>
+  <data key="d6">包含</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="TiFe0.85Mn0.15" target="Fe">
+  <data key="d5">contains</data>
+  <data key="d6">包含</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="TiFe0.85Mn0.15" target="Mn">
+  <data key="d5">contains</data>
+  <data key="d6">包含</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="TiFe0.85Mn0.15" target="hydrogen_absorption">
+  <data key="d5">performs</data>
+  <data key="d6">进行</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="ball_milling" target="particle_size">
+  <data key="d5">controls</data>
+  <data key="d6">控制</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="PECS" target="heating">
+  <data key="d5">enables</data>
+  <data key="d6">实现</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="PECS" target="20_MPa">
+  <data key="d5">applies</data>
+  <data key="d6">施加压力</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="heating" target="1373K">
+  <data key="d5">operates_at</data>
+  <data key="d6">操作温度</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="heating" target="1473K">
+  <data key="d5">operates_at</data>
+  <data key="d6">操作温度</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="heating" target="1573K">
+  <data key="d5">operates_at</data>
+  <data key="d6">操作温度</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="reduction" target="C">
+  <data key="d5">uses</data>
+  <data key="d6">使用还原剂</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="hydrogen_absorption" target="303K">
+  <data key="d5">tested_at</data>
+  <data key="d6">测试温度</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="hydrogen_absorption" target="29_bar">
+  <data key="d5">tested_at</data>
+  <data key="d6">测试压力</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="XRD" target="FeTi">
+  <data key="d5">characterizes</data>
+  <data key="d6">表征</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="XRD" target="Fe2Ti">
+  <data key="d5">characterizes</data>
+  <data key="d6">表征</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="XRD" target="TiC">
+  <data key="d5">characterizes</data>
+  <data key="d6">表征</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="SEM" target="particle_size">
+  <data key="d5">measures</data>
+  <data key="d6">测量</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="KIMS" target="FeTi">
+  <data key="d5">researches</data>
+  <data key="d6">研究</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="KIMS" target="PECS">
+  <data key="d5">develops</data>
+  <data key="d6">开发</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="Chonbuk_Univ" target="hydrogen_storage">
+  <data key="d5">studies</data>
+  <data key="d6">研究</data>
+  <data key="d7">1.0</data>
+</edge>
+<edge source="Chonbuk_Univ" target="TiFe0.85Mn0.15">
+  <data key="d5">develops</data>
+  <data key="d6">开发</data>
+  <data key="d7">1.0</data>
+</edge>
+</graph></graphml>

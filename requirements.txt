@@ -1,0 +1,11 @@
+# 核心运行依赖（轻量）：PDF 解析 -> 知识图谱构建 -> 图挖掘 -> 可视化 主流程所需
+# 安装：pip install -r requirements.txt
+# 版本说明：项目内未锁定精确版本，使用各包当前稳定版即可（开发环境 Python 3.9+）
+pandas
+numpy
+networkx
+scikit-learn
+PyMuPDF
+plotly
+tqdm
+（内容由AI生成，仅供参考）

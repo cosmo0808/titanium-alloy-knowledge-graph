@@ -1,0 +1,527 @@
+{
+  "nodes": {
+    "Fe": {
+      "type": "element",
+      "sources": [
+        "pdf"
+      ],
+      "description": "铁元素"
+    },
+    "Ti": {
+      "type": "element",
+      "sources": [
+        "pdf"
+      ],
+      "description": "钛元素"
+    },
+    "Mn": {
+      "type": "element",
+      "sources": [
+        "pdf"
+      ],
+      "description": "锰元素"
+    },
+    "C": {
+      "type": "element",
+      "sources": [
+        "pdf"
+      ],
+      "description": "碳元素"
+    },
+    "H": {
+      "type": "element",
+      "sources": [
+        "pdf"
+      ],
+      "description": "氢元素"
+    },
+    "O": {
+      "type": "element",
+      "sources": [
+        "pdf"
+      ],
+      "description": "氧元素"
+    },
+    "TiO2": {
+      "type": "compound",
+      "sources": [
+        "pdf"
+      ],
+      "description": "二氧化钛"
+    },
+    "TiH2": {
+      "type": "compound",
+      "sources": [
+        "pdf"
+      ],
+      "description": "氢化钛"
+    },
+    "TiC": {
+      "type": "compound",
+      "sources": [
+        "pdf"
+      ],
+      "description": "碳化钛"
+    },
+    "FeTiO3": {
+      "type": "compound",
+      "sources": [
+        "pdf"
+      ],
+      "description": "钛铁氧化物"
+    },
+    "FeMn2": {
+      "type": "compound",
+      "sources": [
+        "pdf"
+      ],
+      "description": "铁锰化合物"
+    },
+    "FeMn3": {
+      "type": "compound",
+      "sources": [
+        "pdf"
+      ],
+      "description": "铁锰化合物"
+    },
+    "FeTi": {
+      "type": "alloy",
+      "sources": [
+        "pdf"
+      ],
+      "description": "铁钛合金"
+    },
+    "Fe2Ti": {
+      "type": "alloy",
+      "sources": [
+        "pdf"
+      ],
+      "description": "铁钛合金"
+    },
+    "Fe-Ti": {
+      "type": "alloy",
+      "sources": [
+        "pdf"
+      ],
+      "description": "铁钛合金系"
+    },
+    "TiFe0.85Mn0.15": {
+      "type": "alloy",
+      "sources": [
+        "pdf"
+      ],
+      "description": "钛铁锰三元合金"
+    },
+    "ball_milling": {
+      "type": "process",
+      "sources": [
+        "pdf"
+      ],
+      "description": "球磨工艺"
+    },
+    "pulsed_current_sintering": {
+      "type": "process",
+      "sources": [
+        "pdf"
+      ],
+      "description": "脉冲电流烧结"
+    },
+    "PECS": {
+      "type": "process",
+      "sources": [
+        "pdf"
+      ],
+      "description": "脉冲电流辅助烧结"
+    },
+    "SPS": {
+      "type": "process",
+      "sources": [
+        "pdf"
+      ],
+      "description": "放电等离子烧结"
+    },
+    "spark_plasma_sintering": {
+      "type": "process",
+      "sources": [
+        "pdf"
+      ],
+      "description": "火花等离子烧结"
+    },
+    "heating": {
+      "type": "process",
+      "sources": [
+        "pdf"
+      ],
+      "description": "加热过程"
+    },
+    "quenching": {
+      "type": "process",
+      "sources": [
+        "pdf"
+      ],
+      "description": "淬火工艺"
+    },
+    "hydrogen_storage": {
+      "type": "property",
+      "sources": [
+        "pdf"
+      ],
+      "description": "储氢性能"
+    },
+    "hydrogen_absorption": {
+      "type": "property",
+      "sources": [
+        "pdf"
+      ],
+      "description": "氢气吸收"
+    },
+    "hydrogen_desorption": {
+      "type": "property",
+      "sources": [
+        "pdf"
+      ],
+      "description": "氢气释放"
+    },
+    "particle_size": {
+      "type": "property",
+      "sources": [
+        "pdf"
+      ],
+      "description": "颗粒尺寸"
+    },
+    "microstructure": {
+      "type": "property",
+      "sources": [
+        "pdf"
+      ],
+      "description": "微观结构"
+    },
+    "1373K": {
+      "type": "temperature",
+      "sources": [
+        "pdf"
+      ],
+      "description": "实验温度1373K"
+    },
+    "1473K": {
+      "type": "temperature",
+      "sources": [
+        "pdf"
+      ],
+      "description": "实验温度1473K"
+    },
+    "1573K": {
+      "type": "temperature",
+      "sources": [
+        "pdf"
+      ],
+      "description": "实验温度1573K"
+    },
+    "303K": {
+      "type": "temperature",
+      "sources": [
+        "pdf"
+      ],
+      "description": "室温303K"
+    },
+    "673K": {
+      "type": "temperature",
+      "sources": [
+        "pdf"
+      ],
+      "description": "活化温度673K"
+    },
+    "XRD": {
+      "type": "instrument",
+      "sources": [
+        "pdf"
+      ],
+      "description": "X射线衍射"
+    },
+    "FE-SEM": {
+      "type": "instrument",
+      "sources": [
+        "pdf"
+      ],
+      "description": "场发射扫描电镜"
+    },
+    "DLS": {
+      "type": "instrument",
+      "sources": [
+        "pdf"
+      ],
+      "description": "动态光散射"
+    },
+    "KIMS": {
+      "type": "organization",
+      "sources": [
+        "pdf"
+      ],
+      "description": "韩国机械材料研究院"
+    },
+    "Chonbuk_National_University": {
+      "type": "organization",
+      "sources": [
+        "pdf"
+      ],
+      "description": "全北国立大学"
+    },
+    "29_bar": {
+      "type": "pressure",
+      "sources": [
+        "pdf"
+      ],
+      "description": "氢气压力29巴"
+    },
+    "20_MPa": {
+      "type": "pressure",
+      "sources": [
+        "pdf"
+      ],
+      "description": "机械压力20兆帕"
+    }
+  },
+  "edges": [
+    [
+      "FeTi",
+      "contains",
+      "Fe"
+    ],
+    [
+      "FeTi",
+      "contains",
+      "Ti"
+    ],
+    [
+      "Fe2Ti",
+      "contains",
+      "Fe"
+    ],
+    [
+      "Fe2Ti",
+      "contains",
+      "Ti"
+    ],
+    [
+      "TiFe0.85Mn0.15",
+      "contains",
+      "Ti"
+    ],
+    [
+      "TiFe0.85Mn0.15",
+      "contains",
+      "Fe"
+    ],
+    [
+      "TiFe0.85Mn0.15",
+      "contains",
+      "Mn"
+    ],
+    [
+      "TiO2",
+      "contains",
+      "Ti"
+    ],
+    [
+      "TiO2",
+      "contains",
+      "O"
+    ],
+    [
+      "TiH2",
+      "contains",
+      "Ti"
+    ],
+    [
+      "TiH2",
+      "contains",
+      "H"
+    ],
+    [
+      "TiC",
+      "contains",
+      "Ti"
+    ],
+    [
+      "TiC",
+      "contains",
+      "C"
+    ],
+    [
+      "TiO2",
+      "reduced_to",
+      "Ti"
+    ],
+    [
+      "TiO2",
+      "reduced_to",
+      "TiC"
+    ],
+    [
+      "TiH2",
+      "decomposes_to",
+      "Ti"
+    ],
+    [
+      "TiH2",
+      "releases",
+      "H"
+    ],
+    [
+      "Fe",
+      "alloyed_into",
+      "FeTi"
+    ],
+    [
+      "Fe",
+      "alloyed_into",
+      "Fe2Ti"
+    ],
+    [
+      "ball_milling",
+      "processes",
+      "powder"
+    ],
+    [
+      "pulsed_current_sintering",
+      "heats",
+      "mixture"
+    ],
+    [
+      "PECS",
+      "equivalent_to",
+      "SPS"
+    ],
+    [
+      "SPS",
+      "equivalent_to",
+      "spark_plasma_sintering"
+    ],
+    [
+      "heating",
+      "occurs_at",
+      "1373K"
+    ],
+    [
+      "heating",
+      "occurs_at",
+      "1473K"
+    ],
+    [
+      "heating",
+      "occurs_at",
+      "1573K"
+    ],
+    [
+      "FeTi",
+      "has_property",
+      "hydrogen_storage"
+    ],
+    [
+      "Fe2Ti",
+      "has_property",
+      "hydrogen_storage"
+    ],
+    [
+      "Fe-Ti",
+      "exhibits",
+      "hydrogen_absorption"
+    ],
+    [
+      "Fe-Ti",
+      "exhibits",
+      "hydrogen_desorption"
+    ],
+    [
+      "Fe-Ti",
+      "tested_at",
+      "303K"
+    ],
+    [
+      "Fe-Ti",
+      "tested_at",
+      "29_bar"
+    ],
+    [
+      "XRD",
+      "characterizes",
+      "microstructure"
+    ],
+    [
+      "FE-SEM",
+      "observes",
+      "particle_size"
+    ],
+    [
+      "DLS",
+      "measures",
+      "particle_size"
+    ],
+    [
+      "KIMS",
+      "researches",
+      "Fe-Ti"
+    ],
+    [
+      "Chonbuk_National_University",
+      "studies",
+      "hydrogen_storage"
+    ],
+    [
+      "Fe-Ti",
+      "used_for",
+      "hydrogen_storage"
+    ],
+    [
+      "TiO2",
+      "starting_material_for",
+      "Fe-Ti"
+    ],
+    [
+      "TiH2",
+      "starting_material_for",
+      "Fe-Ti"
+    ],
+    [
+      "C",
+      "additive_for",
+      "reduction"
+    ],
+    [
+      "Mn",
+      "additive_for",
+      "alloy_modification"
+    ],
+    [
+      "Fe-Ti",
+      "absorbs",
+      "1.17_wt%_H"
+    ],
+    [
+      "ball_milling",
+      "duration",
+      "24_hours"
+    ],
+    [
+      "ball_milling",
+      "speed",
+      "120_rpm"
+    ],
+    [
+      "heating",
+      "pressure",
+      "20_MPa"
+    ],
+    [
+      "particle_size",
+      "average",
+      "256_nm"
+    ]
+  ],
+  "statistics": {
+    "node_count": 39,
+    "edge_count": 45,
+    "creation_time": "2025-09-11T08:21:14.933085",
+    "source": "Fe-Ti alloy PDF enhanced extraction"
+  }
+}

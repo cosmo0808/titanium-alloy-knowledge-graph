@@ -1,0 +1,343 @@
+{
+  "nodes": {
+    "Ti": {
+      "type": "element",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "钛": {
+      "type": "element_name",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "Al": {
+      "type": "element",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "铝": {
+      "type": "element_name",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "V": {
+      "type": "element",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "钒": {
+      "type": "element_name",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "Mo": {
+      "type": "element",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "钼": {
+      "type": "element_name",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "Nb": {
+      "type": "element",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "铌": {
+      "type": "element_name",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "Zr": {
+      "type": "element",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "锆": {
+      "type": "element_name",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "Sn": {
+      "type": "element",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "锡": {
+      "type": "element_name",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "Fe": {
+      "type": "element",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "铁": {
+      "type": "element_name",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "Cr": {
+      "type": "element",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "铬": {
+      "type": "element_name",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "Ni": {
+      "type": "element",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "镍": {
+      "type": "element_name",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "Ti-6Al-4V": {
+      "type": "alloy",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "alpha_beta": {
+      "type": "alloy_type",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "aerospace": {
+      "type": "application",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "Ti-3Al-2.5V": {
+      "type": "alloy",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "alpha": {
+      "type": "alloy_type",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "tubing": {
+      "type": "application",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "Ti-10V-2Fe-3Al": {
+      "type": "alloy",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "beta": {
+      "type": "alloy_type",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "high_strength": {
+      "type": "application",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "Ti-6Al-2Sn-4Zr-2Mo": {
+      "type": "alloy",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    },
+    "high_temperature": {
+      "type": "application",
+      "sources": [
+        "domain_knowledge"
+      ],
+      "properties": {}
+    }
+  },
+  "edges": [
+    [
+      "Ti",
+      "chinese_name",
+      "钛"
+    ],
+    [
+      "Al",
+      "chinese_name",
+      "铝"
+    ],
+    [
+      "V",
+      "chinese_name",
+      "钒"
+    ],
+    [
+      "Mo",
+      "chinese_name",
+      "钼"
+    ],
+    [
+      "Nb",
+      "chinese_name",
+      "铌"
+    ],
+    [
+      "Zr",
+      "chinese_name",
+      "锆"
+    ],
+    [
+      "Sn",
+      "chinese_name",
+      "锡"
+    ],
+    [
+      "Fe",
+      "chinese_name",
+      "铁"
+    ],
+    [
+      "Cr",
+      "chinese_name",
+      "铬"
+    ],
+    [
+      "Ni",
+      "chinese_name",
+      "镍"
+    ],
+    [
+      "Ti-6Al-4V",
+      "type",
+      "alpha_beta"
+    ],
+    [
+      "Ti-6Al-4V",
+      "used_in",
+      "aerospace"
+    ],
+    [
+      "Ti-3Al-2.5V",
+      "type",
+      "alpha"
+    ],
+    [
+      "Ti-3Al-2.5V",
+      "used_in",
+      "tubing"
+    ],
+    [
+      "Ti-10V-2Fe-3Al",
+      "type",
+      "beta"
+    ],
+    [
+      "Ti-10V-2Fe-3Al",
+      "used_in",
+      "high_strength"
+    ],
+    [
+      "Ti-6Al-2Sn-4Zr-2Mo",
+      "type",
+      "alpha_beta"
+    ],
+    [
+      "Ti-6Al-2Sn-4Zr-2Mo",
+      "used_in",
+      "high_temperature"
+    ],
+    [
+      "Ti-6Al-4V",
+      "contains",
+      "Ti"
+    ],
+    [
+      "Ti-6Al-4V",
+      "contains",
+      "Al"
+    ],
+    [
+      "Ti-6Al-4V",
+      "contains",
+      "V"
+    ],
+    [
+      "Ti-3Al-2.5V",
+      "contains",
+      "Ti"
+    ],
+    [
+      "Ti-3Al-2.5V",
+      "contains",
+      "Al"
+    ],
+    [
+      "Ti-3Al-2.5V",
+      "contains",
+      "V"
+    ]
+  ]
+}

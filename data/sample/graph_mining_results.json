@@ -1,0 +1,904 @@
+{
+  "link_predictions": [
+    {
+      "head": "Ti-6Al-4V",
+      "tail": "Ti-3Al-2.5V",
+      "predicted_relation": "related_to",
+      "confidence": 2.730717679880512,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "beta",
+      "tail": "high_strength",
+      "predicted_relation": "related_to",
+      "confidence": 1.4426950408889634,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "high_temperature",
+      "tail": "alpha_beta",
+      "predicted_relation": "related_to",
+      "confidence": 1.4426950408889634,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "Ti-6Al-2Sn-4Zr-2Mo",
+      "tail": "Ti-6Al-4V",
+      "predicted_relation": "related_to",
+      "confidence": 1.4426950408889634,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "Ti",
+      "tail": "Al",
+      "predicted_relation": "related_to",
+      "confidence": 1.2426698691192237,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "Ti",
+      "tail": "V",
+      "predicted_relation": "related_to",
+      "confidence": 1.2426698691192237,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "Al",
+      "tail": "V",
+      "predicted_relation": "related_to",
+      "confidence": 1.2426698691192237,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "钛",
+      "tail": "Ti-3Al-2.5V",
+      "predicted_relation": "related_to",
+      "confidence": 0.9102392266268373,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "钛",
+      "tail": "Ti-6Al-4V",
+      "predicted_relation": "related_to",
+      "confidence": 0.9102392266268373,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "铝",
+      "tail": "Ti-6Al-4V",
+      "predicted_relation": "related_to",
+      "confidence": 0.9102392266268373,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "铝",
+      "tail": "Ti-3Al-2.5V",
+      "predicted_relation": "related_to",
+      "confidence": 0.9102392266268373,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "钒",
+      "tail": "Ti-3Al-2.5V",
+      "predicted_relation": "related_to",
+      "confidence": 0.9102392266268373,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "钒",
+      "tail": "Ti-6Al-4V",
+      "predicted_relation": "related_to",
+      "confidence": 0.9102392266268373,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "tubing",
+      "tail": "alpha",
+      "predicted_relation": "related_to",
+      "confidence": 0.6213349345596119,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "tubing",
+      "tail": "Ti",
+      "predicted_relation": "related_to",
+      "confidence": 0.6213349345596119,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "tubing",
+      "tail": "Al",
+      "predicted_relation": "related_to",
+      "confidence": 0.6213349345596119,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "tubing",
+      "tail": "V",
+      "predicted_relation": "related_to",
+      "confidence": 0.6213349345596119,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "Ti",
+      "tail": "alpha",
+      "predicted_relation": "related_to",
+      "confidence": 0.6213349345596119,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "Ti",
+      "tail": "alpha_beta",
+      "predicted_relation": "related_to",
+      "confidence": 0.6213349345596119,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "Ti",
+      "tail": "aerospace",
+      "predicted_relation": "related_to",
+      "confidence": 0.6213349345596119,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "Al",
+      "tail": "alpha",
+      "predicted_relation": "related_to",
+      "confidence": 0.6213349345596119,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "Al",
+      "tail": "alpha_beta",
+      "predicted_relation": "related_to",
+      "confidence": 0.6213349345596119,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "Al",
+      "tail": "aerospace",
+      "predicted_relation": "related_to",
+      "confidence": 0.6213349345596119,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "aerospace",
+      "tail": "alpha_beta",
+      "predicted_relation": "related_to",
+      "confidence": 0.6213349345596119,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "aerospace",
+      "tail": "V",
+      "predicted_relation": "related_to",
+      "confidence": 0.6213349345596119,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "alpha",
+      "tail": "V",
+      "predicted_relation": "related_to",
+      "confidence": 0.6213349345596119,
+      "method": "adamic_adar"
+    },
+    {
+      "head": "alpha_beta",
+      "tail": "V",
+      "predicted_relation": "related_to",
+      "confidence": 0.6213349345596119,
+      "method": "adamic_adar"
+    }
+  ],
+  "causal_paths": [],
+  "knowledge_discoveries": [
+    {
+      "type": "important_entity",
+      "entity": "Ti",
+      "entity_type": "element",
+      "importance_score": 0.042615751539232916,
+      "rank_in_type": 1,
+      "description": "Ti在element类别中具有重要地位",
+      "potential_application": "可考虑Ti元素在新合金设计中的应用"
+    },
+    {
+      "type": "important_entity",
+      "entity": "Al",
+      "entity_type": "element",
+      "importance_score": 0.042615751539232916,
+      "rank_in_type": 2,
+      "description": "Al在element类别中具有重要地位",
+      "potential_application": "可考虑Al元素在新合金设计中的应用"
+    },
+    {
+      "type": "important_entity",
+      "entity": "V",
+      "entity_type": "element",
+      "importance_score": 0.042615751539232916,
+      "rank_in_type": 3,
+      "description": "V在element类别中具有重要地位",
+      "potential_application": "可考虑V元素在新合金设计中的应用"
+    },
+    {
+      "type": "important_entity",
+      "entity": "钼",
+      "entity_type": "element_name",
+      "importance_score": 0.03225806451612903,
+      "rank_in_type": 1,
+      "description": "钼在element_name类别中具有重要地位",
+      "potential_application": "钼值得进一步研究"
+    },
+    {
+      "type": "important_entity",
+      "entity": "铌",
+      "entity_type": "element_name",
+      "importance_score": 0.03225806451612903,
+      "rank_in_type": 2,
+      "description": "铌在element_name类别中具有重要地位",
+      "potential_application": "铌值得进一步研究"
+    },
+    {
+      "type": "important_entity",
+      "entity": "锆",
+      "entity_type": "element_name",
+      "importance_score": 0.03225806451612903,
+      "rank_in_type": 3,
+      "description": "锆在element_name类别中具有重要地位",
+      "potential_application": "锆值得进一步研究"
+    },
+    {
+      "type": "important_entity",
+      "entity": "Ti-3Al-2.5V",
+      "entity_type": "alloy",
+      "importance_score": 0.06931932840375289,
+      "rank_in_type": 1,
+      "description": "Ti-3Al-2.5V在alloy类别中具有重要地位",
+      "potential_application": "Ti-3Al-2.5V合金可能适用于特定工业场景"
+    },
+    {
+      "type": "important_entity",
+      "entity": "Ti-6Al-4V",
+      "entity_type": "alloy",
+      "importance_score": 0.06832556417544275,
+      "rank_in_type": 2,
+      "description": "Ti-6Al-4V在alloy类别中具有重要地位",
+      "potential_application": "Ti-6Al-4V合金可能适用于特定工业场景"
+    },
+    {
+      "type": "important_entity",
+      "entity": "Ti-10V-2Fe-3Al",
+      "entity_type": "alloy",
+      "importance_score": 0.04707704913073165,
+      "rank_in_type": 3,
+      "description": "Ti-10V-2Fe-3Al在alloy类别中具有重要地位",
+      "potential_application": "Ti-10V-2Fe-3Al合金可能适用于特定工业场景"
+    },
+    {
+      "type": "important_entity",
+      "entity": "alpha_beta",
+      "entity_type": "alloy_type",
+      "importance_score": 0.031246731468665648,
+      "rank_in_type": 1,
+      "description": "alpha_beta在alloy_type类别中具有重要地位",
+      "potential_application": "alpha_beta值得进一步研究"
+    },
+    {
+      "type": "important_entity",
+      "entity": "beta",
+      "entity_type": "alloy_type",
+      "importance_score": 0.02484857220882771,
+      "rank_in_type": 2,
+      "description": "beta在alloy_type类别中具有重要地位",
+      "potential_application": "beta值得进一步研究"
+    },
+    {
+      "type": "important_entity",
+      "entity": "alpha",
+      "entity_type": "alloy_type",
+      "importance_score": 0.016623559833688774,
+      "rank_in_type": 3,
+      "description": "alpha在alloy_type类别中具有重要地位",
+      "potential_application": "alpha值得进一步研究"
+    },
+    {
+      "type": "important_entity",
+      "entity": "high_strength",
+      "entity_type": "application",
+      "importance_score": 0.02484857220882771,
+      "rank_in_type": 1,
+      "description": "high_strength在application类别中具有重要地位",
+      "potential_application": "high_strength值得进一步研究"
+    },
+    {
+      "type": "important_entity",
+      "entity": "high_temperature",
+      "entity_type": "application",
+      "importance_score": 0.019630821116140066,
+      "rank_in_type": 2,
+      "description": "high_temperature在application类别中具有重要地位",
+      "potential_application": "high_temperature值得进一步研究"
+    },
+    {
+      "type": "important_entity",
+      "entity": "tubing",
+      "entity_type": "application",
+      "importance_score": 0.016623559833688774,
+      "rank_in_type": 3,
+      "description": "tubing在application类别中具有重要地位",
+      "potential_application": "tubing值得进一步研究"
+    },
+    {
+      "type": "knowledge_cluster",
+      "community_id": 0,
+      "entities": [
+        "Ti",
+        "alpha",
+        "tubing",
+        "Ti-3Al-2.5V",
+        "钛"
+      ],
+      "size": 5,
+      "composition": {
+        "element": 1,
+        "alloy_type": 1,
+        "application": 1,
+        "alloy": 1,
+        "element_name": 1
+      },
+      "dominant_type": "element",
+      "description": "发现包含5个实体的知识簇",
+      "insight": "发现了跨领域的复杂关联模式"
+    },
+    {
+      "type": "knowledge_cluster",
+      "community_id": 1,
+      "entities": [
+        "铝",
+        "V",
+        "Al",
+        "钒",
+        "Ti-6Al-4V",
+        "aerospace"
+      ],
+      "size": 6,
+      "composition": {
+        "element_name": 2,
+        "element": 2,
+        "alloy": 1,
+        "application": 1
+      },
+      "dominant_type": "element_name",
+      "description": "发现包含6个实体的知识簇",
+      "insight": "发现了跨领域的复杂关联模式"
+    },
+    {
+      "type": "knowledge_cluster",
+      "community_id": 9,
+      "entities": [
+        "high_strength",
+        "beta",
+        "Ti-10V-2Fe-3Al"
+      ],
+      "size": 3,
+      "composition": {
+        "application": 1,
+        "alloy_type": 1,
+        "alloy": 1
+      },
+      "dominant_type": "application",
+      "description": "发现包含3个实体的知识簇",
+      "insight": "需要进一步分析的知识簇"
+    },
+    {
+      "type": "knowledge_cluster",
+      "community_id": 10,
+      "entities": [
+        "high_temperature",
+        "Ti-6Al-2Sn-4Zr-2Mo",
+        "alpha_beta"
+      ],
+      "size": 3,
+      "composition": {
+        "application": 1,
+        "alloy": 1,
+        "alloy_type": 1
+      },
+      "dominant_type": "application",
+      "description": "发现包含3个实体的知识簇",
+      "insight": "需要进一步分析的知识簇"
+    },
+    {
+      "type": "frequent_pattern",
+      "pattern": [
+        "element",
+        "chinese_name",
+        "element_name"
+      ],
+      "frequency": 10,
+      "description": "发现频繁模式: element -[chinese_name]-> element_name",
+      "significance": "high"
+    },
+    {
+      "type": "frequent_pattern",
+      "pattern": [
+        "alloy",
+        "contains",
+        "element"
+      ],
+      "frequency": 6,
+      "description": "发现频繁模式: alloy -[contains]-> element",
+      "significance": "medium"
+    },
+    {
+      "type": "frequent_pattern",
+      "pattern": [
+        "alloy",
+        "type",
+        "alloy_type"
+      ],
+      "frequency": 4,
+      "description": "发现频繁模式: alloy -[type]-> alloy_type",
+      "significance": "medium"
+    },
+    {
+      "type": "frequent_pattern",
+      "pattern": [
+        "alloy",
+        "used_in",
+        "application"
+      ],
+      "frequency": 4,
+      "description": "发现频繁模式: alloy -[used_in]-> application",
+      "significance": "medium"
+    }
+  ],
+  "entity_clusters": [
+    {
+      "cluster_id": 0,
+      "entities": [
+        "Mo",
+        "锆",
+        "锡",
+        "Cr",
+        "high_temperature"
+      ],
+      "size": 5,
+      "composition": {
+        "element": 2,
+        "element_name": 2,
+        "application": 1
+      },
+      "avg_similarity": 0.14759135514083338,
+      "centroid": [
+        0.1600956468515725,
+        0.09198247442331493,
+        -0.11739390710567855,
+        -0.09407831730071299,
+        0.0005933040845772179,
+        0.049217165128849424,
+        0.06360407119020901,
+        0.04052954554245476,
+        -0.14255260578091844,
+        0.05734242962594595,
+        0.1745477701936134,
+        -0.028753301136606436,
+        0.062050674504171635,
+        0.157236926499354,
+        0.05545875419438648,
+        -0.13819268820423936,
+        -0.07526640338976794,
+        -0.09629618191756849,
+        0.07821258209024283,
+        0.005335489154072504,
+        -0.07127331325597518,
+        0.0787308952298437,
+        -0.13665505169937475,
+        0.11388377076567063,
+        -0.052866297677858554,
+        -0.05350753611187266,
+        -0.08681860919474294,
+        -0.22467618894869312,
+        0.06752115196230006,
+        0.09985777227303158,
+        0.0172311317430167,
+        0.07127799005468637
+      ],
+      "dominant_type": "element"
+    },
+    {
+      "cluster_id": 1,
+      "entities": [
+        "铝",
+        "铌",
+        "Fe",
+        "铁",
+        "Ni",
+        "镍",
+        "Ti-6Al-4V",
+        "aerospace",
+        "alpha",
+        "tubing",
+        "high_strength"
+      ],
+      "size": 11,
+      "composition": {
+        "element_name": 4,
+        "element": 2,
+        "alloy": 1,
+        "application": 3,
+        "alloy_type": 1
+      },
+      "avg_similarity": 0.11081683426544481,
+      "centroid": [
+        -0.1569842260754124,
+        0.045840851768793246,
+        0.009224060939984693,
+        -0.002082403024114575,
+        0.05581764853923503,
+        0.02090842847667583,
+        -0.017195104239747613,
+        -0.08465857326633755,
+        0.017879945646738567,
+        0.002724520211239846,
+        0.07590636454895197,
+        0.030988081486819807,
+        -0.0022717656401755187,
+        -0.10681756968778608,
+        -0.03143000751782174,
+        0.05813663973071284,
+        0.1445924969711882,
+        0.01707906217771439,
+        -0.10622328856319907,
+        -0.04879054632254097,
+        0.008313926814742686,
+        0.15840459401466048,
+        0.15975577851145933,
+        -0.09665216710325386,
+        0.044610753112303295,
+        -0.07231040620758211,
+        0.03571624723457336,
+        -0.023112177457159787,
+        0.050394349597439804,
+        0.06398484846118718,
+        -0.10374342027613742,
+        0.09826960907937425
+      ],
+      "dominant_type": "element_name"
+    },
+    {
+      "cluster_id": 2,
+      "entities": [
+        "Ti",
+        "Al",
+        "V",
+        "Sn",
+        "铬"
+      ],
+      "size": 5,
+      "composition": {
+        "element": 4,
+        "element_name": 1
+      },
+      "avg_similarity": 0.06517540005355701,
+      "centroid": [
+        0.14465139883767444,
+        0.067215748296511,
+        0.036523857748734956,
+        0.060884227442565095,
+        -0.15960299850702828,
+        0.00688757683788397,
+        -0.0058140617644149295,
+        0.12173211921062542,
+        -0.1104833162398999,
+        -0.1708538255928623,
+        -0.06082789048605624,
+        -0.012741253139829559,
+        0.059443841804796116,
+        -0.01839962824991946,
+        0.028135994752149635,
+        0.002191349327115486,
+        -0.16761190371892948,
+        0.09028224360158485,
+        0.07650878822827173,
+        -0.0038679106786417908,
+        -0.037337184282391835,
+        -0.10154361657240032,
+        -0.024988110000161615,
+        0.04451104320661893,
+        -0.15058595308531508,
+        0.004448421546126499,
+        -0.07117083361679613,
+        -0.032579058621501795,
+        -0.044048457887167866,
+        -0.18876514124415728,
+        0.08072582746552782,
+        0.044945135550039414
+      ],
+      "dominant_type": "element"
+    },
+    {
+      "cluster_id": 3,
+      "entities": [
+        "钛",
+        "Nb",
+        "Zr",
+        "alpha_beta",
+        "beta"
+      ],
+      "size": 5,
+      "composition": {
+        "element_name": 1,
+        "element": 2,
+        "alloy_type": 2
+      },
+      "avg_similarity": 0.15825564022762745,
+      "centroid": [
+        0.02465824775728062,
+        -0.2604239695793013,
+        -0.013415691474546321,
+        0.15331254624458002,
+        0.04516194191500916,
+        -0.06632211851738089,
+        0.08861232977555952,
+        0.05611208977733365,
+        -0.09259368068629235,
+        0.22677552046159172,
+        -0.19582132630051907,
+        -0.05614275975651198,
+        0.16296289435673894,
+        0.039229661967146945,
+        -0.048901337293433544,
+        -0.014921432324638884,
+        0.016285811236040677,
+        -0.004819712977732389,
+        0.001055264984810264,
+        -0.15196585374819374,
+        -0.07488916182659953,
+        0.033008059104639456,
+        -0.09811704565851342,
+        0.018203515483932824,
+        -0.0104332683001245,
+        -0.07844505157036866,
+        -0.01999389331398802,
+        -0.038819642322251435,
+        -0.10170291728670827,
+        -0.15918109795793295,
+        -0.0019280684472528275,
+        0.030808138603698878
+      ],
+      "dominant_type": "element"
+    },
+    {
+      "cluster_id": 4,
+      "entities": [
+        "钒",
+        "钼",
+        "Ti-3Al-2.5V",
+        "Ti-10V-2Fe-3Al",
+        "Ti-6Al-2Sn-4Zr-2Mo"
+      ],
+      "size": 5,
+      "composition": {
+        "element_name": 2,
+        "alloy": 3
+      },
+      "avg_similarity": 0.13794128833766145,
+      "centroid": [
+        0.08231367757077085,
+        0.016224567640400304,
+        0.008213557154098407,
+        0.11200886126298112,
+        -0.08139134960266454,
+        0.13038190819676032,
+        0.18370377812003805,
+        -0.08378099715957808,
+        0.06308540262495581,
+        -0.10549967554902119,
+        -0.05237553058654691,
+        0.18911499106004634,
+        -0.02324512256331994,
+        -0.11655253462796149,
+        -0.030179930809118523,
+        0.003383958902453364,
+        -0.011723876380067222,
+        -0.07807788154700308,
+        0.12607111685890246,
+        0.0092682712739032,
+        0.1567336146672077,
+        -0.008205900766658149,
+        -0.0016204633701443795,
+        0.04977831638011907,
+        -0.057797741413004144,
+        0.04692359878972663,
+        0.14174241452854155,
+        0.1267594042446719,
+        -0.07137696925906198,
+        0.20581381018136147,
+        0.11319439723172277,
+        -0.07969198512001606
+      ],
+      "dominant_type": "alloy"
+    }
+  ],
+  "anomaly_detections": [
+    {
+      "type": "high_degree_anomaly",
+      "entity": "Ti-6Al-4V",
+      "degree": 5,
+      "mean_degree": 1.5483870967741935,
+      "description": "Ti-6Al-4V的连接度异常高",
+      "severity": "high"
+    },
+    {
+      "type": "high_degree_anomaly",
+      "entity": "Ti-3Al-2.5V",
+      "degree": 5,
+      "mean_degree": 1.5483870967741935,
+      "description": "Ti-3Al-2.5V的连接度异常高",
+      "severity": "high"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "Ti",
+        "钛"
+      ],
+      "description": "Ti和钛之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "Al",
+        "铝"
+      ],
+      "description": "Al和铝之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "V",
+        "钒"
+      ],
+      "description": "V和钒之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "Mo",
+        "钼"
+      ],
+      "description": "Mo和钼之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "Nb",
+        "铌"
+      ],
+      "description": "Nb和铌之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "Zr",
+        "锆"
+      ],
+      "description": "Zr和锆之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "Sn",
+        "锡"
+      ],
+      "description": "Sn和锡之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "Fe",
+        "铁"
+      ],
+      "description": "Fe和铁之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "Cr",
+        "铬"
+      ],
+      "description": "Cr和铬之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "Ni",
+        "镍"
+      ],
+      "description": "Ni和镍之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "Ti-6Al-4V",
+        "alpha_beta"
+      ],
+      "description": "Ti-6Al-4V和alpha_beta之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "Ti-6Al-4V",
+        "aerospace"
+      ],
+      "description": "Ti-6Al-4V和aerospace之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "alpha_beta",
+        "Ti-6Al-2Sn-4Zr-2Mo"
+      ],
+      "description": "alpha_beta和Ti-6Al-2Sn-4Zr-2Mo之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "Ti-3Al-2.5V",
+        "alpha"
+      ],
+      "description": "Ti-3Al-2.5V和alpha之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "Ti-3Al-2.5V",
+        "tubing"
+      ],
+      "description": "Ti-3Al-2.5V和tubing之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "Ti-10V-2Fe-3Al",
+        "beta"
+      ],
+      "description": "Ti-10V-2Fe-3Al和beta之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "Ti-10V-2Fe-3Al",
+        "high_strength"
+      ],
+      "description": "Ti-10V-2Fe-3Al和high_strength之间的边是桥边",
+      "severity": "low"
+    },
+    {
+      "type": "bridge_edge",
+      "entities": [
+        "Ti-6Al-2Sn-4Zr-2Mo",
+        "high_temperature"
+      ],
+      "description": "Ti-6Al-2Sn-4Zr-2Mo和high_temperature之间的边是桥边",
+      "severity": "low"
+    }
+  ],
+  "hypergraph_inferences": []
+}

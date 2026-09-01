@@ -1,0 +1,25 @@
+# 可选依赖：按需安装以启用扩展能力（不安装不影响主流程）
+# 安装：pip install -r requirements-optional.txt
+
+# 1) Neo4j 企业级存储
+#    启用 script/neo4j_knowledge_storage.py、neo4j_hypergraph_generator.py
+#    需要本地或远程 Neo4j 服务，并在 .env 配置 NEO4J_URI / NEO4J_USER / NEO4J_PASSWORD
+neo4j
+
+# 2) 语义嵌入与向量化 RAG
+#    启用 script/enhanced_rag_system.py 的语义检索增强、validation_system.py 的嵌入校验
+#    注意：sentence-transformers 会拉取 torch 等大体积依赖，建议按需安装
+sentence-transformers
+torch
+
+# 3) HTTP 客户端
+#    接入 OpenAI 兼容 API / 外部服务时使用
+requests
+
+# 4) OpenKE / TransE 外部训练（可选）
+#    quick_openke_test.py、script/openke_integration.py 可选路径
+#    官方仓库 https://github.com/thunlp/OpenKE 需自行克隆，
+#    将源码路径放入 data/OpenKE 或通过环境变量 OPENKE_ROOT 指定；
+#    本项目不提供 pip 包名与版本号
+# openke
+（内容由AI生成，仅供参考）

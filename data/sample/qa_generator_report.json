@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-09-11T08:07:14.266339",
+  "total_qa_pairs": 43,
+  "qa_types": [
+    "material_supplier",
+    "material_purity",
+    "material_size",
+    "material_role",
+    "processing_conditions",
+    "equipment_specs",
+    "performance_result",
+    "phase_identification",
+    "optimization_strategy",
+    "material_comparison",
+    "performance_comparison",
+    "equipment_details",
+    "microstructure_details",
+    "author_info",
+    "publication_info",
+    "funding_info"
+  ],
+  "type_counts": {
+    "material_supplier": 5,
+    "material_purity": 5,
+    "material_size": 5,
+    "material_role": 5,
+    "processing_conditions": 3,
+    "equipment_specs": 1,
+    "performance_result": 4,
+    "phase_identification": 4,
+    "optimization_strategy": 1,
+    "material_comparison": 1,
+    "performance_comparison": 1,
+    "equipment_details": 4,
+    "microstructure_details": 1,
+    "author_info": 1,
+    "publication_info": 1,
+    "funding_info": 1
+  },
+  "files_generated": {
+    "comprehensive_database": "data\\processed\\comprehensive_qa_database.json",
+    "typed_qa": "data\\processed\\qa_by_type.json",
+    "demo_responses": "data\\processed\\demo_qa_responses.json"
+  },
+  "intelligent_features": [
+    "Keyword-based question matching",
+    "Context-aware answer generation",
+    "Multi-type question coverage",
+    "PDF content accuracy",
+    "Fallback answer mechanism"
+  ]
+}

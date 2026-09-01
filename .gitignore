@@ -1,0 +1,68 @@
+# ============================================================
+# Titanium Alloy Knowledge Graph - Git 忽略规则
+# 原则：忽略大体积/可再生运行产物；保留 data/sample 演示数据、
+#       data/openke_benchmark 基准文件与全部源码/文档。
+# ============================================================
+
+# ---- Python 缓存 / 编译产物 ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- 环境变量与密钥（.env.example 为模板，保留入库） ----
+.env
+.env.local
+*.env
+
+# ---- IDE / 编辑器 ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- 本地数据库（大体积，不入库） ----
+*.db
+*.sqlite
+*.sqlite3
+*.materials.db
+
+# ---- 原始 PDF（大体积，不入库） ----
+*.pdf
+data/raw/
+data/pdfs/
+
+# ---- 序列化 / 嵌入中间产物 ----
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# ---- 生成数据（运行产物，不入库） ----
+data/processed/
+data/graph_storage/
+data/OpenKE/
+data/embeddings/
+results/
+logs/
+test_cases/
+
+# ---- 日志 ----
+*.log
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db

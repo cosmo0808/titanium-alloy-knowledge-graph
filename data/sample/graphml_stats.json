@@ -1,0 +1,15 @@
+{
+  "creation_time": "2025-09-10T14:27:19.603153",
+  "main_graph": {
+    "nodes": 30,
+    "edges": 40,
+    "node_types": 9,
+    "file": "data\\processed\\knowledge_graph.graphml"
+  },
+  "hypergraph": {
+    "nodes": 33,
+    "edges": 46,
+    "hyperedges": 3,
+    "file": "data\\processed\\hypergraph.graphml"
+  }
+}
