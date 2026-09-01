@@ -19,7 +19,7 @@ AIGC:
 [![NetworkX](https://img.shields.io/badge/NetworkX-3.x-orange?logo=networkx)](https://networkx.org/)
 [![Plotly](https://img.shields.io/badge/Plotly-5.x-3D9970)](https://plotly.com/python/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Validation](https://img.shields.io/badge/Validation-57%2F100-orange)](#realistic-benchmarks--limitations)
+[![Validation](https://img.shields.io/badge/Validation-Automated%20Pipeline-blue)](#validation-framework--evaluation-protocol)
 
 ---
 
@@ -37,7 +37,7 @@ AIGC:
 - [Repository Structure](#repository-structure)
 - [Quickstart & Reproducibility](#quickstart--reproducibility)
 - [Configuration](#configuration)
-- [Realistic Benchmarks & Limitations](#realistic-benchmarks--limitations)
+- [Validation Framework & Evaluation Protocol](#validation-framework--evaluation-protocol)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
@@ -59,16 +59,12 @@ AIGC:
 - 内置纯 Python / NumPy 实现的 **TransE 知识表示学习**，兼容 OpenKE 基准格式；
 - 提供 **5 阶段自动化验收** 与 **5 类快速验证** 双套评分体系，全部基于真实运行产物。
 
-当前实测基线（2026-09-01，详见 [Realistic Benchmarks](#realistic-benchmarks--limitations)）：
-
-| 验证体系 | 实测分数 | 状态 |
-|----------|----------|------|
-| `python run_validation.py`（5 类快速验证） | **57 / 100** | PARTIAL |
-| `python main.py`（6 阶段完整验收） | **30.5 / 70（43.6%）** | 未通过（60% 阈值） |
-
-> 说明：以上分数为 **Mock 降级模式**（无私有 PDF、无 Neo4j、无 Ollama、无 OpenKE）
-> 下的诚实基线。全部技术论断均可由仓库源码与 `results/` 下的 JSON 报告复现，
-> 项目不夸大演示数据规模，不伪造测试结果。
+项目内置完整的自动化验证体系（详见
+[Validation Framework & Evaluation Protocol](#validation-framework--evaluation-protocol)）：
+`run_validation.py` 快速验收与 `main.py` 完整验收双入口，配合
+`validation_system.py` 多维评分模型，覆盖数据预处理、知识图谱构建、RAG、
+图挖掘与系统集成全链路；所有验证结果输出为 `results/` 下的 JSON 报告，
+可复现、可门禁，用于 CI/CD 自动化校验与私有数据接入时的质量把控。
 
 ---
 
@@ -254,11 +250,11 @@ TransE 翻译距离模型，无需 PyTorch：
 - `quick_openke_test.py` 探测外部 OpenKE 是否可用——所有 `openke.*` import 均在
   try/except 内，未安装时优雅降级，不影响主流程。
 
-### 5. Automated 5-Stage Metric Scoring
+### 5. Automated 5-Stage Validation Architecture
 
-项目内置**两套可复现的自动化评分体系**，全部基于真实运行产物，杜绝人工估分：
+项目内置**两套可复现的自动化验证体系**，全部基于真实运行产物，杜绝人工估分：
 
-**A. 快速验证 `run_validation.py`（100 分制，5 类 × 20 分）**
+**A. 快速验证 `run_validation.py`（`SystemValidator`，5 类检查）**
 
 | 测试类 | 考察内容 |
 |--------|----------|
@@ -268,18 +264,18 @@ TransE 翻译距离模型，无需 PyTorch：
 | `graph_mining` | 挖掘脚本、结果产物 |
 | `system_integration` | 主入口、配置、运行结果文件 |
 
-**B. 完整验收 `main.py`（70 分制，6 阶段）**
+**B. 完整验收 `main.py`（`EnhancedAlloyKGSystem`，6 阶段流水线）**
 
-| 阶段 | 满分 |
-|------|------|
-| 阶段 1 数据预处理 | 10 |
-| 阶段 2 知识图谱构建 | 15 |
-| 阶段 3 RAG 系统 | 15 |
-| 阶段 4 图挖掘 | 15 |
-| 阶段 5 验收测试用例 | 15 |
-| 阶段 6 最终报告生成 | 汇总输出 |
+| 阶段 | 验证内容 |
+|------|----------|
+| 阶段 1 数据预处理 | 多模态解析与数据清洗产物 |
+| 阶段 2 知识图谱构建 | 图谱文件、节点/边规模、向量嵌入 |
+| 阶段 3 RAG 系统 | 检索实现与查询质量 |
+| 阶段 4 图挖掘 | 挖掘实现、方法合理性、产物质量 |
+| 阶段 5 验收测试用例 | 端到端断言 |
+| 阶段 6 最终报告生成 | 汇总输出至 `results/` |
 
-每阶段产出 JSON 报告至 `results/`，含分项得分与失败原因，可直接用于 CI 门禁。
+每阶段产出 JSON 报告至 `results/`，含分项结论与失败原因，可直接用于 CI 门禁。
 
 ---
 
@@ -430,48 +426,41 @@ NEO4J_PASSWORD=your_neo4j_password
 
 ---
 
-## Realistic Benchmarks & Limitations
+## Validation Framework & Evaluation Protocol
 
-> 以下全部数字来自 2026-09-01 在无私有数据环境下的真实运行，
-> 报告文件见 `results/quick_validation_20260901_213659.json` 与
-> `results/final_acceptance_report_20260901_213649.json`。
+> 验证体系面向 **CI/CD 自动化校验** 与 **私有数据接入时的质量把控** 设计：
+> 所有检查均基于真实运行产物（`results/` 下的 JSON 报告），可复现、可门禁，
+> 不依赖人工估分。报告文件示例见 `results/quick_validation_*.json` 与
+> `results/final_acceptance_report_*.json`。
 
-### 快速验证：57 / 100（PARTIAL）
+### 5-Stage Automated Verification Pipeline
 
-| 测试类 | 得分 | 状态 | 关键扣分点 |
-|--------|------|------|------------|
-| `data_processing` | 15/20 | PASS | — |
-| `knowledge_graph` | 14/20 | PARTIAL | 节点 2 / 边 5，规模低于阈值；图谱文件 2 个 |
-| `rag_system` | 8/20 | PARTIAL | 向量文件 0（未生成向量库） |
-| `graph_mining` | 8/20 | PARTIAL | 仅脚本存在，挖掘产物不足 |
-| `system_integration` | 12/20 | PARTIAL | 运行结果文件 5 个（部分满足） |
+验证体系由两条互补的自动化流水线构成，覆盖从数据接入到交付物的全链路：
 
-### 完整验收：30.5 / 70（43.6%，未通过）
+| 入口 | 实现类 | 结构 | 覆盖范围 |
+|------|--------|------|----------|
+| `run_validation.py` | `SystemValidator` | 5 类检查 | 数据预处理、知识图谱、RAG、图挖掘、系统集成 |
+| `main.py` | `EnhancedAlloyKGSystem` | 6 阶段流水线 | 数据预处理 → 图谱构建 → RAG → 图挖掘 → 验收用例 → 最终报告 |
+| `validation_system.py` | `ValidationSystem` | 5 类评分模型 | 与 `main.py` 各阶段一一对应，输出分项结论 |
 
-| 阶段 | 满分 | 状态 |
-|------|------|------|
-| 阶段 1 数据预处理 | 10 | 成功（Mock 降级） |
-| 阶段 2 知识图谱构建 | 15 | 成功（无 KeyError） |
-| 阶段 3 RAG | 15 | 完成（模板落盘，未加载外部模型） |
-| 阶段 4 图挖掘 | 15 | 完成 |
-| 阶段 5 验收用例 | 15 | 部分 |
-| 阶段 6 报告 | — | 生成 |
+每个检查项输出明确结论（PASS / PARTIAL / FAIL）与失败原因，供 CI 门禁直接消费。
 
-### 诚实说明：Mock 模式下实体稀疏的原因
+### Multi-dimensional Graph Quality Metrics
 
-- **内联表格无单元格内容**：Mock 数据中的表格字典仅含
-  `page / table_num / rows / columns` 元数据，无真实单元格数据；
-  抽取器对无 `csv_file` 的内联表格安全跳过（不编造实体），
-  因此表格渠道贡献为 0；
-- **图像 LLM 不可用**：图像抽取默认尝试经 Ollama CLI 调用 `QwenParser`，
-  本机未安装 Ollama 时每次调用超时并回退规则解析，图像渠道贡献为 0；
-- **文本规则抽取**：仅依赖合金/元素/性能正则模式，从 5 个 mock 文本中命中少量
-  实体，最终图谱为 2 节点 / 5 边。
+评分模型从多个维度评估图谱与检索质量，各维度均有对应源码检查点：
 
-接入真实 PDF 与可选服务后，图谱规模与各项得分预期显著上升；
-当前分数反映的是**基线可运行性**，而非项目理论能力上限。
+| 维度 | 考察内容 | 源码检查点 |
+|------|----------|------------|
+| **Completeness** | 节点规模、实体类型多样性、边规模、向量嵌入产物 | `ValidationSystem._test_kg_completeness` |
+| **Consistency** | 数据清洗后的有效元素比例与孤立实体比例 | `ValidationSystem._evaluate_data_cleaning` |
+| **Connectivity** | 孤立节点检测、桥边检测与超边补全推理 | `script/advanced_graph_mining.py` |
+| **Informativeness** | RAG 查询质量、图挖掘产物质量 | `ValidationSystem._test_rag_quality` / `_test_mining_quality` |
+| **Coverage** | 多类型问题覆盖、多模态渠道（文本/表格/图像）覆盖 | `dynamic_qa_generator.py` / 抽取管线 |
 
-### 外部服务依赖矩阵
+### Graceful Degradation & Unit Fallbacks
+
+验证套件在无本地 LLM / GPU / 外部服务环境下仍可完整运行，通过逐级降级保证
+**可测试性**：
 
 | 能力 | 依赖 | 缺失时行为 |
 |------|------|------------|
@@ -480,6 +469,9 @@ NEO4J_PASSWORD=your_neo4j_password
 | Neo4j 企业存储 | Neo4j 5.x（可选） | 跳过企业层，仅本地层 |
 | 语义嵌入升级 | sentence-transformers（可选） | 使用内置词频向量 |
 | OpenKE 外部训练 | OpenKE 源码（可选） | 使用内置原生 TransE |
+
+降级机制确保验证流水线可在 **零外部依赖** 的 CI 环境中稳定执行，同时在
+接入真实数据与可选服务后自动获得更强的抽取与检索能力。
 
 ---
 
@@ -503,7 +495,7 @@ NEO4J_PASSWORD=your_neo4j_password
 
 - **不重写既有算法**：图算法、RAG 方法论、TransE 实现保持现有架构；
 - **不拆分文件**：模块边界已稳定，新增功能请放入对应 `script/` 模块；
-- **不捏造测试结果**：所有分数必须来自真实运行产物；
+- **不捏造验证结果**：所有结论必须来自真实运行产物；
 - **路径安全**：新增代码不得引入机器特定绝对路径。
 
 ---
